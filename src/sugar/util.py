@@ -21,8 +21,10 @@ import sha
 import random
 import binascii
 import string
-from gettext import gettext as _
 import gettext
+
+_ = lambda msg: gettext.dgettext('sugar-toolkit', msg)
+_ngettext = lambda msg1, msg2, n: gettext.dngettext('sugar-toolkit', msg1, msg2, n)
 
 def printable_hash(in_hash):
     """Convert binary hash data into printable characters."""
@@ -222,8 +224,8 @@ def timestamp_to_elapsed_string(timestamp, max_levels=2):
             if levels > 0:
                 time_period += COMMA
 
-            time_period += gettext.ngettext(name_singular, name_plural,
-                                            elapsed_units) % elapsed_units
+            time_period += _ngettext(name_singular, name_plural,
+                                     elapsed_units) % elapsed_units
 
             elapsed_seconds -= elapsed_units * factor
 
