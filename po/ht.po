@@ -2,152 +2,153 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-06-24 00:07+0530\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2008-07-02 08:41-0400\n"
+"Last-Translator: Jude Augusma <jayme2901@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.1.1rc4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+Content-Transfer-Encoding: 8bit\n"
+
+"X-Generator: Pootle 1.1.0rc2\n"
 
 #: ../src/sugar/activity/activity.py:120
 msgid "Share with:"
-msgstr ""
+msgstr "Pataje ak:"
 
 #: ../src/sugar/activity/activity.py:122
 msgid "Private"
-msgstr ""
+msgstr "Prive"
 
 #: ../src/sugar/activity/activity.py:123
 msgid "My Neighborhood"
-msgstr ""
+msgstr "Vwazinaj mwen"
 
 #: ../src/sugar/activity/activity.py:130
 msgid "Keep"
-msgstr ""
+msgstr "Kenbe"
 
 #: ../src/sugar/activity/activity.py:136
 msgid "Stop"
-msgstr ""
+msgstr "Kanpe"
 
 #: ../src/sugar/activity/activity.py:251
 msgid "Undo"
-msgstr ""
+msgstr "Defè"
 
 #: ../src/sugar/activity/activity.py:256
 msgid "Redo"
-msgstr ""
+msgstr "Refè"
 
 #: ../src/sugar/activity/activity.py:266
 msgid "Copy"
-msgstr ""
+msgstr "Kopye"
 
 #: ../src/sugar/activity/activity.py:271
 msgid "Paste"
-msgstr ""
+msgstr "Pase"
 
 #: ../src/sugar/activity/activity.py:297
 msgid "Activity"
-msgstr ""
+msgstr "Aktivite"
 
 #: ../src/sugar/activity/activity.py:469
 #, python-format
 msgid "%s Activity"
-msgstr ""
+msgstr "%Aktivite"
 
 #: ../src/sugar/activity/activity.py:856
 msgid "Keep error"
-msgstr ""
+msgstr "Erè anrejistreman"
 
 #: ../src/sugar/activity/activity.py:857
 msgid "Keep error: all changes will be lost"
-msgstr ""
+msgstr "Erè anrejistreman: Tout chanjman yo ap pèdi"
 
 #: ../src/sugar/activity/activity.py:860
 msgid "Don't stop"
-msgstr ""
+msgstr "Pa kanpe"
 
 #: ../src/sugar/activity/activity.py:863
 msgid "Stop anyway"
-msgstr ""
+msgstr "Kanpe kan menm"
 
 #: ../src/sugar/graphics/alert.py:166 ../src/sugar/graphics/alert.py:209
 msgid "Cancel"
-msgstr ""
+msgstr "Anile"
 
 #: ../src/sugar/graphics/alert.py:170 ../src/sugar/graphics/alert.py:247
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #: ../src/sugar/graphics/alert.py:219
 msgid "Continue"
-msgstr ""
+msgstr "Kontinye"
 
 #: ../src/sugar/util.py:181
 msgid " and "
-msgstr ""
+msgstr "ak_"
 
 #: ../src/sugar/util.py:182
 msgid ", "
-msgstr ""
+msgstr ",_"
 
 #. TRANS: Indicating something that just happened, eg. "just now", "moments ago"
 #: ../src/sugar/util.py:185
 msgid "Seconds ago"
-msgstr ""
+msgstr "yon segond pase"
 
 #. TRANS: Indicating time passed, eg. "[10 day, 5 hours] ago",
 #. "[2 minutes] in the past", or "[3 years, 1 month] earlier"
 #: ../src/sugar/util.py:189
 #, python-format
 msgid "%s ago"
-msgstr ""
+msgstr "Li gen %s"
 
 #. TRANS: Relative dates (eg. 1 month and 5 days).
 #: ../src/sugar/util.py:202
 #, python-format
 msgid "%d year"
 msgid_plural "%d years"
-msgstr[0] ""
+msgstr[0] "%d ane"
 msgstr[1] ""
 
 #: ../src/sugar/util.py:203
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] ""
+msgstr[0] "%d mwa"
 msgstr[1] ""
 
 #: ../src/sugar/util.py:204
 #, python-format
 msgid "%d week"
 msgid_plural "%d weeks"
-msgstr[0] ""
+msgstr[0] "%d semèn"
 msgstr[1] ""
 
 #: ../src/sugar/util.py:205
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] ""
+msgstr[0] "%d jou"
 msgstr[1] ""
 
 #: ../src/sugar/util.py:206
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] ""
+msgstr[0] "%d hè"
 msgstr[1] ""
 
 #: ../src/sugar/util.py:207
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] ""
+msgstr[0] "%d minit"
 msgstr[1] ""
