@@ -76,13 +76,11 @@ msgstr "Ntuhagarare"
 msgid "Stop anyway"
 msgstr "Hagarara muburyo bwose"
 
-#: ../src/sugar/graphics/alert.py:166
-#: ../src/sugar/graphics/alert.py:209
+#: ../src/sugar/graphics/alert.py:166 ../src/sugar/graphics/alert.py:209
 msgid "Cancel"
 msgstr "Kuraho"
 
-#: ../src/sugar/graphics/alert.py:170
-#: ../src/sugar/graphics/alert.py:247
+#: ../src/sugar/graphics/alert.py:170 ../src/sugar/graphics/alert.py:247
 msgid "Ok"
 msgstr "Nibyo"
 

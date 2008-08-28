@@ -76,13 +76,11 @@ msgstr "ఆపవద్దు"
 msgid "Stop anyway"
 msgstr "ఏదేమైనా ఆపువేయి"
 
-#: ../src/sugar/graphics/alert.py:166
-#: ../src/sugar/graphics/alert.py:209
+#: ../src/sugar/graphics/alert.py:166 ../src/sugar/graphics/alert.py:209
 msgid "Cancel"
 msgstr "రద్దు చేయి"
 
-#: ../src/sugar/graphics/alert.py:170
-#: ../src/sugar/graphics/alert.py:247
+#: ../src/sugar/graphics/alert.py:170 ../src/sugar/graphics/alert.py:247
 msgid "Ok"
 msgstr "సరి"
 

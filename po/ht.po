@@ -116,39 +116,39 @@ msgstr "Li gen %s"
 msgid "%d year"
 msgid_plural "%d years"
 msgstr[0] "%d ane"
-msgstr[1] ""
+msgstr[1] "%d ane"
 
 #: ../src/sugar/util.py:203
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
 msgstr[0] "%d mwa"
-msgstr[1] ""
+msgstr[1] "%d mwa"
 
 #: ../src/sugar/util.py:204
 #, python-format
 msgid "%d week"
 msgid_plural "%d weeks"
 msgstr[0] "%d semèn"
-msgstr[1] ""
+msgstr[1] "%d semèn"
 
 #: ../src/sugar/util.py:205
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] "%d jou"
-msgstr[1] ""
+msgstr[1] "%d jou"
 
 #: ../src/sugar/util.py:206
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] "%d hè"
-msgstr[1] ""
+msgstr[0] "%d è"
+msgstr[1] "%d è"
 
 #: ../src/sugar/util.py:207
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d minit"
-msgstr[1] ""
+msgstr[1] "%d minit"
