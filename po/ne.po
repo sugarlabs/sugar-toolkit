@@ -59,7 +59,7 @@ msgstr "क्रियाकलाप"
 #: ../src/sugar/activity/activity.py:469
 #, python-format
 msgid "%s Activity"
-msgstr "%ऽ कृयाकलाप"
+msgstr "%s कृयाकलाप"
 
 #: ../src/sugar/activity/activity.py:856
 msgid "Keep error"
