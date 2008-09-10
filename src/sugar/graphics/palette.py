@@ -272,7 +272,7 @@ class Palette(gtk.Window):
         self._mouse_detector = MouseSpeedDetector(self, 200, 5)
         self._mouse_detector.connect('motion-slow', self._mouse_slow_cb)
 
-    def __destroy_cb(self, palette):        
+    def __destroy_cb(self, palette):
         self.set_group_id(None)
         
         if self._palette_popup_sid is not None:
@@ -757,6 +757,9 @@ class Invoker(gobject.GObject):
 
     def detach(self):
         self.parent = None
+        if self._palette is not None:
+            self._palette.destroy()
+            self._palette = None
 
     def _get_position_for_alignment(self, alignment, palette_dim):
         palette_halign = alignment[0]
