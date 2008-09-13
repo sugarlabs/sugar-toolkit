@@ -274,6 +274,10 @@ class Palette(gtk.Window):
 
     def __destroy_cb(self, palette):
         self.set_group_id(None)
+
+        # Break the reference cycle. It looks like the gc is not able to free
+        # it, possibly because gtk.Menu memory handling is very special.
+        self.menu = None
         
         if self._palette_popup_sid is not None:
             _palette_observer.disconnect(self._palette_popup_sid)
