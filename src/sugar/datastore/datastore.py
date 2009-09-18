@@ -168,6 +168,7 @@ class RawObject(object):
     def get_file_path(self, fetch=True):
         # we have to create symlink since its a common practice
         # to create hardlinks to jobject files
+        # and w/o this, it wouldn't work since we have file from mounted device
         if self._file_path is None:
             self._file_path = tempfile.mktemp(
                     prefix='rawobject',
@@ -183,7 +184,8 @@ class RawObject(object):
             return
         self._destroyed = True
         if self._file_path is not None:
-            os.remove(self._file_path)
+            if os.path.exists(self._file_path):
+                os.remove(self._file_path)
             self._file_path = None
 
     def __del__(self):
@@ -194,11 +196,11 @@ class RawObject(object):
 
 def get(object_id):
     logging.debug('datastore.get')
-    metadata = dbus_helpers.get_properties(object_id)
 
     if object_id.startswith('/'):
         return RawObject(object_id)
 
+    metadata = dbus_helpers.get_properties(object_id)
     ds_object = DSObject(object_id, DSMetadata(metadata), None)
     # TODO: register the object for updates
     return ds_object
