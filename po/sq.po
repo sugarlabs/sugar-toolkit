@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-04-29 17:35-0400\n"
+"PO-Revision-Date: 2009-10-01 11:55-0400\n"
+"Last-Translator: jon <joni-ber_rock@hotmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 1.2.1\n"
+
+#: ../src/sugar/activity/activity.py:123
+msgid "Share with:"
+msgstr "Ndaj me:"
+
+#: ../src/sugar/activity/activity.py:125
+msgid "Private"
+msgstr "Private"
+
+#: ../src/sugar/activity/activity.py:126
+msgid "My Neighborhood"
+msgstr "Lagjja Ime"
+
+#: ../src/sugar/activity/activity.py:133
+#: ../src/sugar/activity/namingalert.py:84
+msgid "Keep"
+msgstr "Mbaj"
+
+#: ../src/sugar/activity/activity.py:144
+msgid "Stop"
+msgstr "Ndalo"
+
+#: ../src/sugar/activity/activity.py:258
+msgid "Undo"
+msgstr "Zhbëj"
+
+#: ../src/sugar/activity/activity.py:263
+msgid "Redo"
+msgstr "Bëj"
+
+#: ../src/sugar/activity/activity.py:273
+msgid "Copy"
+msgstr "Kopjo"
+
+#: ../src/sugar/activity/activity.py:278
+msgid "Paste"
+msgstr "Ngjit"
+
+#: ../src/sugar/activity/activity.py:304
+msgid "Activity"
+msgstr "Aktivitet"
+
+#: ../src/sugar/activity/activity.py:543
+#, python-format
+msgid "%s Activity"
+msgstr "%s Aktivitet"
+
+#: ../src/sugar/activity/activity.py:924
+msgid "Keep error"
+msgstr "Gabim gjat mbajtjes"
+
+#: ../src/sugar/activity/activity.py:925
+msgid "Keep error: all changes will be lost"
+msgstr "Gabim gjat mbajtjes: të gjitha ndrryshimet do humbasin"
+
+#: ../src/sugar/activity/activity.py:928
+msgid "Don't stop"
+msgstr "Mos ndalo"
+
+#: ../src/sugar/activity/activity.py:931
+msgid "Stop anyway"
+msgstr "Ndalo gjithsesi"
+
+#: ../src/sugar/activity/namingalert.py:79
+msgid "Name this entry"
+msgstr "Ndrryshoja emrin"
+
+#: ../src/sugar/activity/namingalert.py:275
+msgid "Untitled"
+msgstr "E paemërtuar"
+
+#: ../src/sugar/activity/namingalert.py:282
+msgid "Description:"
+msgstr "Përshkrimi:"
+
+#: ../src/sugar/activity/namingalert.py:306
+msgid "Tags:"
+msgstr "Etiketat:"
+
+#: ../src/sugar/graphics/alert.py:288
+#: ../src/sugar/graphics/alert.py:367
+msgid "Cancel"
+msgstr "Anulo"
+
+#: ../src/sugar/graphics/alert.py:292
+#: ../src/sugar/graphics/alert.py:426
+msgid "Ok"
+msgstr "Në rregull"
+
+#: ../src/sugar/graphics/alert.py:377
+msgid "Continue"
+msgstr "Vazhdo"
+
+#: ../src/sugar/graphics/colorbutton.py:49
+msgid "Choose a color"
+msgstr "Zgjidh një ngjyrë"
+
+#: ../src/sugar/graphics/colorbutton.py:267
+msgid "Red"
+msgstr "Kuq"
+
+#: ../src/sugar/graphics/colorbutton.py:269
+msgid "Green"
+msgstr "Gjelbër"
+
+#: ../src/sugar/graphics/colorbutton.py:271
+msgid "Blue"
+msgstr "Kaltër"
+
+#: ../src/sugar/util.py:196
+msgid " and "
+msgstr "dhe"
+
+#: ../src/sugar/util.py:197
+msgid ", "
+msgstr ","
+
+#. TRANS: Indicating something that just happened, eg. "just now", "moments ago"
+#: ../src/sugar/util.py:200
+msgid "Seconds ago"
+msgstr "Sekonda më parë"
+
+#. TRANS: Indicating time passed, eg. "[10 day, 5 hours] ago",
+#. "[2 minutes] in the past", or "[3 years, 1 month] earlier"
+#: ../src/sugar/util.py:204
+#, python-format
+msgid "%s ago"
+msgstr "%s më parë"
+
+#. TRANS: Relative dates (eg. 1 month and 5 days).
+#: ../src/sugar/util.py:217
+#, python-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "%d viti"
+msgstr[1] "%d vitet"
+
+#: ../src/sugar/util.py:218
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d muaji"
+msgstr[1] "%d muajt"
+
+#: ../src/sugar/util.py:219
+#, python-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "%d javë"
+msgstr[1] "%d javët"
+
+#: ../src/sugar/util.py:220
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d ditë"
+msgstr[1] "%d ditët"
+
+#: ../src/sugar/util.py:221
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d orë"
+msgstr[1] "%d orët"
+
+#: ../src/sugar/util.py:222
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minutë"
+msgstr[1] "%d minuta"
