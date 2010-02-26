@@ -7,50 +7,51 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-06-24 00:07+0530\n"
-"PO-Revision-Date: 2008-07-31 03:41-0400\n"
-"Last-Translator: Bibek Kafle <oxese.eax@gmail.com>\n"
+"PO-Revision-Date: 2009-12-30 02:25-0400\n"
+"Last-Translator: Basanta Shrestha <basanta.shrestha@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ne\n"
 "MIME-Version: 1.0\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Pootle 1.1.0rc2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 1.2.1\n"
 
 #: ../src/sugar/activity/activity.py:120
 msgid "Share with:"
-msgstr ":संग बाँड"
+msgstr "क-कसलाई देखाउने"
 
 #: ../src/sugar/activity/activity.py:122
 msgid "Private"
-msgstr "गुप्त"
+msgstr "आफूलाई मात्र"
 
 #: ../src/sugar/activity/activity.py:123
 msgid "My Neighborhood"
-msgstr "मेरो छिमेक"
+msgstr "आफू र छिमेकलाई"
 
 #: ../src/sugar/activity/activity.py:130
 msgid "Keep"
-msgstr "राख"
+msgstr "सेभ गर"
 
 #: ../src/sugar/activity/activity.py:136
 msgid "Stop"
-msgstr "रोक"
+msgstr "बन्द गर"
 
 #: ../src/sugar/activity/activity.py:251
 msgid "Undo"
-msgstr "सच्याउ"
+msgstr "पहिलेकै अवस्थामा फर्काऊ"
 
 #: ../src/sugar/activity/activity.py:256
 msgid "Redo"
-msgstr "पुन: सच्याउ"
+msgstr "फेरि गर"
 
 #: ../src/sugar/activity/activity.py:266
 msgid "Copy"
-msgstr "नकल गर"
+msgstr "प्रतिलिपि बनाऊ"
 
 #: ../src/sugar/activity/activity.py:271
 msgid "Paste"
-msgstr "टाँस"
+msgstr "प्रतिलिपि टाँस"
 
 #: ../src/sugar/activity/activity.py:297
 msgid "Activity"
@@ -59,15 +60,15 @@ msgstr "क्रियाकलाप"
 #: ../src/sugar/activity/activity.py:469
 #, python-format
 msgid "%s Activity"
-msgstr "%s कृयाकलाप"
+msgstr "%s क्रियाकलाप"
 
 #: ../src/sugar/activity/activity.py:856
 msgid "Keep error"
-msgstr "गलती राख"
+msgstr "गल्ती राख"
 
 #: ../src/sugar/activity/activity.py:857
 msgid "Keep error: all changes will be lost"
-msgstr "गलती राख: सबै परिवर्तनहरु हराँउछन्"
+msgstr "गल्ती राख: सबै परिवर्तनहरु हराँउछन्"
 
 #: ../src/sugar/activity/activity.py:860
 msgid "Don't stop"
@@ -79,16 +80,15 @@ msgstr "त्यैपनी रोक"
 
 #: ../src/sugar/graphics/alert.py:166 ../src/sugar/graphics/alert.py:209
 msgid "Cancel"
-msgstr "भैगो"
+msgstr "परिवर्तन नगर"
 
 #: ../src/sugar/graphics/alert.py:170 ../src/sugar/graphics/alert.py:247
 msgid "Ok"
-msgstr "हुन्छ"
+msgstr "परिवर्तन गर"
 
 #: ../src/sugar/graphics/alert.py:219
-#, fuzzy
 msgid "Continue"
-msgstr "गरिराख"
+msgstr "जारी राख्नु"
 
 #: ../src/sugar/util.py:181
 msgid " and "
@@ -100,7 +100,6 @@ msgstr ","
 
 #. TRANS: Indicating something that just happened, eg. "just now", "moments ago"
 #: ../src/sugar/util.py:185
-#, fuzzy
 msgid "Seconds ago"
 msgstr "केही बेर अगी"
 
