@@ -27,10 +27,28 @@ import tempfile
 import gobject
 import gconf
 import gio
+import dbus
 
 from sugar import env
 from sugar.datastore import dbus_helpers
 from sugar import mime
+
+DS_DBUS_SERVICE = "org.laptop.sugar.DataStore"
+DS_DBUS_INTERFACE = "org.laptop.sugar.DataStore"
+DS_DBUS_PATH = "/org/laptop/sugar/DataStore"
+
+_data_store = None
+
+def _get_data_store():
+    global _data_store
+
+    if not _data_store:
+        _bus = dbus.SessionBus()
+        _data_store = dbus.Interface(_bus.get_object(DS_DBUS_SERVICE,
+                                                     DS_DBUS_PATH),
+                                     DS_DBUS_INTERFACE)
+    return _data_store
+
 
 class DSMetadata(gobject.GObject):
     __gsignals__ = {
@@ -83,13 +101,39 @@ class DSMetadata(gobject.GObject):
         else:
             return default
 
+    def update(self, properties):
+        """Update all of the metadata"""
+        for (key, value) in properties.items():
+            self[key] = value
+
+
 class DSObject(object):
     def __init__(self, object_id, metadata=None, file_path=None):
-        self.object_id = object_id
+        self.set_object_id(object_id)
         self._metadata = metadata
         self._file_path = file_path
         self._destroyed = False
         self._owns_file = False
+        self._update_signal_match = None
+
+    def get_object_id(self):
+        return self._object_id
+
+    def set_object_id(self, object_id):
+        if object_id is not None:
+            if self._update_signal_match is not None:
+                self._update_signal_match.remove()
+            self._update_signal_match = _get_data_store().connect_to_signal( \
+                    'Updated', self.__object_updated_cb, arg0=object_id)
+        
+        self._object_id = object_id
+
+    object_id = property(get_object_id, set_object_id)
+
+    def __object_updated_cb(self, object_id):
+        properties = _get_data_store().get_properties(self.object_id,
+                                                      byte_arrays=True)
+        self._metadata.update(properties)
 
     def get_metadata(self):
         if self._metadata is None and not self.object_id is None:
