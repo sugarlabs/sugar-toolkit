@@ -131,7 +131,7 @@ class DSObject(object):
     object_id = property(get_object_id, set_object_id)
 
     def __object_updated_cb(self, object_id):
-        properties = _get_data_store().get_properties(self.object_id,
+        properties = _get_data_store().get_properties(self._object_id,
                                                       byte_arrays=True)
         self._metadata.update(properties)
 
