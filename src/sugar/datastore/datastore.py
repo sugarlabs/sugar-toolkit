@@ -109,12 +109,12 @@ class DSMetadata(gobject.GObject):
 
 class DSObject(object):
     def __init__(self, object_id, metadata=None, file_path=None):
+        self._update_signal_match = None
         self.set_object_id(object_id)
         self._metadata = metadata
         self._file_path = file_path
         self._destroyed = False
         self._owns_file = False
-        self._update_signal_match = None
 
     def get_object_id(self):
         return self._object_id
