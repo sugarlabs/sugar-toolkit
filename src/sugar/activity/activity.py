@@ -99,6 +99,7 @@ class ActivityToolbar(gtk.Toolbar):
 
         self._activity = activity
         self._updating_share = False
+        self._focus_out_hid = None
 
         activity.connect('shared', self.__activity_shared_cb)
         activity.connect('joined', self.__activity_shared_cb)
@@ -109,7 +110,8 @@ class ActivityToolbar(gtk.Toolbar):
             self.title = gtk.Entry()
             self.title.set_size_request(int(gtk.gdk.screen_width() / 3), -1)
             self.title.set_text(activity.metadata['title'])
-            self.title.connect('focus-out-event', self.__title_changed_cb)
+            self._focus_out_hid = self.title.connect('focus-out-event',
+                                                     self.__title_changed_cb)
             self._add_widget(self.title)
 
             activity.metadata.connect('updated', self.__jobject_updated_cb)
@@ -176,6 +178,9 @@ class ActivityToolbar(gtk.Toolbar):
         self._activity.copy()
 
     def __stop_clicked_cb(self, button):
+        if self._focus_out_hid is not None:
+            self.title.disconnect(self._focus_out_hid)
+        self._update_title(self.title.get_text())
         self._activity.close()
 
     def __jobject_updated_cb(self, jobject):
@@ -183,7 +188,9 @@ class ActivityToolbar(gtk.Toolbar):
 
     def __title_changed_cb(self, editable, event):
         title = editable.get_text()
+        self._update_title(title)
 
+    def _update_title(self, title):
         # Title really changed?
         if title == self._activity.metadata['title']:
             return False
