@@ -36,6 +36,7 @@ def _property_get_trapped(window, prop, prop_type):
     return prop_info
 
 def _property_change_trapped(window, prop, prop_type, format, mode, data):
+    # pylint: disable=W0622
     gtk.gdk.error_trap_push()
 
     window.property_change(prop, prop_type, format, mode, data)
