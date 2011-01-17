@@ -6,145 +6,180 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-06-24 00:07+0530\n"
-"PO-Revision-Date: 2008-07-18 06:59-0400\n"
-"Last-Translator: Rashan Anushka <rashan.uoc@gmail.com>\n"
+"POT-Creation-Date: 2009-04-29 17:35-0400\n"
+"PO-Revision-Date: 2011-01-17 19:52+0200\n"
+"Last-Translator: Danishka Navin <danishka@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: si\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Pootle 1.1.0rc2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.3\n"
 
-#: ../src/sugar/activity/activity.py:120
+#: ../src/sugar/activity/activity.py:123
 msgid "Share with:"
 msgstr "බෙදාගත යුත්තේ:"
 
-#: ../src/sugar/activity/activity.py:122
+#: ../src/sugar/activity/activity.py:125
 msgid "Private"
 msgstr "පුද්ගලික"
 
-#: ../src/sugar/activity/activity.py:123
+#: ../src/sugar/activity/activity.py:126
 msgid "My Neighborhood"
 msgstr "මගේ වටපිටාව"
 
-#: ../src/sugar/activity/activity.py:130
+#: ../src/sugar/activity/activity.py:133
+#: ../src/sugar/activity/namingalert.py:84
 msgid "Keep"
 msgstr "තබාගන්න"
 
-#: ../src/sugar/activity/activity.py:136
+#: ../src/sugar/activity/activity.py:144
 msgid "Stop"
 msgstr "නවත්වන්න"
 
-#: ../src/sugar/activity/activity.py:251
+#: ../src/sugar/activity/activity.py:258
 msgid "Undo"
 msgstr "නිශ්ප්‍රභ කරන්න"
 
-#: ../src/sugar/activity/activity.py:256
+#: ../src/sugar/activity/activity.py:263
 msgid "Redo"
 msgstr "යළි කරන්න"
 
-#: ../src/sugar/activity/activity.py:266
+#: ../src/sugar/activity/activity.py:273
 msgid "Copy"
 msgstr "පිටපත් කරන්න"
 
-#: ../src/sugar/activity/activity.py:271
+#: ../src/sugar/activity/activity.py:278
 msgid "Paste"
 msgstr "අලවන්න"
 
-#: ../src/sugar/activity/activity.py:297
+#: ../src/sugar/activity/activity.py:304
 msgid "Activity"
 msgstr "ක්‍රියාකාරකම"
 
-#: ../src/sugar/activity/activity.py:469
+#: ../src/sugar/activity/activity.py:543
 #, python-format
 msgid "%s Activity"
 msgstr "%s ක්‍රියාකාරකම"
 
-#: ../src/sugar/activity/activity.py:856
+#: ../src/sugar/activity/activity.py:924
 msgid "Keep error"
 msgstr "දෝශය තබාගන්න"
 
-#: ../src/sugar/activity/activity.py:857
+#: ../src/sugar/activity/activity.py:925
 msgid "Keep error: all changes will be lost"
-msgstr "දෝශය තබාගන්න: සියළු වෙනස්කිරීම් නැතිවනු ඇත"
+msgstr "දෝශය තබාගන්න: සියළු වෙනස් කිරීම් නැති වේ"
 
-#: ../src/sugar/activity/activity.py:860
+#: ../src/sugar/activity/activity.py:928
 msgid "Don't stop"
 msgstr "නවත්වන්න එපා"
 
-#: ../src/sugar/activity/activity.py:863
+#: ../src/sugar/activity/activity.py:931
 msgid "Stop anyway"
 msgstr "කෙසේ හෝ නවත්වන්න"
 
-#: ../src/sugar/graphics/alert.py:166 ../src/sugar/graphics/alert.py:209
+#: ../src/sugar/activity/namingalert.py:79
+msgid "Name this entry"
+msgstr "මෙම ඇතුළත් කිරීම නම් කරන්න"
+
+#: ../src/sugar/activity/namingalert.py:275
+msgid "Untitled"
+msgstr "නිර්ණාමික"
+
+#: ../src/sugar/activity/namingalert.py:282
+msgid "Description:"
+msgstr "විස්තරය:"
+
+#: ../src/sugar/activity/namingalert.py:306
+msgid "Tags:"
+msgstr "හැඳුනුම් වදන්:"
+
+#: ../src/sugar/graphics/alert.py:288 ../src/sugar/graphics/alert.py:367
 msgid "Cancel"
 msgstr "අවලංගු කරන්න"
 
-#: ../src/sugar/graphics/alert.py:170 ../src/sugar/graphics/alert.py:247
+#: ../src/sugar/graphics/alert.py:292 ../src/sugar/graphics/alert.py:426
 msgid "Ok"
 msgstr "හරි"
 
-#: ../src/sugar/graphics/alert.py:219
+#: ../src/sugar/graphics/alert.py:377
 msgid "Continue"
 msgstr "පවත්වාගෙන යන්න"
 
-#: ../src/sugar/util.py:181
-msgid " and "
-msgstr " හා "
+#: ../src/sugar/graphics/colorbutton.py:49
+msgid "Choose a color"
+msgstr "වර්ණයක් තෝරන්න"
 
-#: ../src/sugar/util.py:182
+#: ../src/sugar/graphics/colorbutton.py:267
+msgid "Red"
+msgstr "රතු"
+
+#: ../src/sugar/graphics/colorbutton.py:269
+msgid "Green"
+msgstr "කොළ"
+
+#: ../src/sugar/graphics/colorbutton.py:271
+msgid "Blue"
+msgstr "නිල්"
+
+#: ../src/sugar/util.py:196
+msgid " and "
+msgstr " සහ "
+
+#: ../src/sugar/util.py:197
 msgid ", "
 msgstr ", "
 
 #. TRANS: Indicating something that just happened, eg. "just now", "moments ago"
-#: ../src/sugar/util.py:185
+#: ../src/sugar/util.py:200
 msgid "Seconds ago"
 msgstr "තත්පර කිහිපයකට පෙර"
 
 #. TRANS: Indicating time passed, eg. "[10 day, 5 hours] ago",
 #. "[2 minutes] in the past", or "[3 years, 1 month] earlier"
-#: ../src/sugar/util.py:189
+#: ../src/sugar/util.py:204
 #, python-format
 msgid "%s ago"
 msgstr "%s ට පෙර"
 
 #. TRANS: Relative dates (eg. 1 month and 5 days).
-#: ../src/sugar/util.py:202
+#: ../src/sugar/util.py:217
 #, python-format
 msgid "%d year"
 msgid_plural "%d years"
 msgstr[0] "අවුරුද්දයි"
 msgstr[1] "අවුරුදු %d "
 
-#: ../src/sugar/util.py:203
+#: ../src/sugar/util.py:218
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
 msgstr[0] "මාසයයි"
 msgstr[1] "මාස %d"
 
-#: ../src/sugar/util.py:204
+#: ../src/sugar/util.py:219
 #, python-format
 msgid "%d week"
 msgid_plural "%d weeks"
 msgstr[0] "සතියයි"
 msgstr[1] "සති %d"
 
-#: ../src/sugar/util.py:205
+#: ../src/sugar/util.py:220
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] "දවසයි"
 msgstr[1] "දවස් %d"
 
-#: ../src/sugar/util.py:206
+#: ../src/sugar/util.py:221
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "පැයයි"
 msgstr[1] "පැය %d"
 
-#: ../src/sugar/util.py:207
+#: ../src/sugar/util.py:222
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
