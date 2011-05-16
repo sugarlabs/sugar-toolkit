@@ -1,0 +1,182 @@
+# Armenian translations for glucose package.
+# Copyright (C) 2011 THE glucose'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the glucose package.
+# root <root@pootle.sugarlabs.org>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: glucose 84\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-04-29 17:35-0400\n"
+"PO-Revision-Date: 2011-05-16 14:51+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: Armenian\n"
+"Language: hy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.1\n"
+
+#: ../src/sugar/activity/activity.py:123
+msgid "Share with:"
+msgstr ""
+
+#: ../src/sugar/activity/activity.py:125
+msgid "Private"
+msgstr "Անձնական"
+
+#: ../src/sugar/activity/activity.py:126
+msgid "My Neighborhood"
+msgstr "Իմ հարեվանությունը"
+
+#: ../src/sugar/activity/activity.py:133
+#: ../src/sugar/activity/namingalert.py:84
+msgid "Keep"
+msgstr "Պահել"
+
+#: ../src/sugar/activity/activity.py:144
+msgid "Stop"
+msgstr "Կանգ"
+
+#: ../src/sugar/activity/activity.py:258
+msgid "Undo"
+msgstr "Չեղյալ հայտարարել"
+
+#: ../src/sugar/activity/activity.py:263
+msgid "Redo"
+msgstr "Կրկնել"
+
+#: ../src/sugar/activity/activity.py:273
+msgid "Copy"
+msgstr "Պատճենել"
+
+#: ../src/sugar/activity/activity.py:278
+msgid "Paste"
+msgstr "Ներդնել"
+
+#: ../src/sugar/activity/activity.py:304
+msgid "Activity"
+msgstr "Գործունեություն"
+
+#: ../src/sugar/activity/activity.py:543
+#, python-format
+msgid "%s Activity"
+msgstr "%s Գործունեություն"
+
+#: ../src/sugar/activity/activity.py:924
+msgid "Keep error"
+msgstr "Պահման վրիպում"
+
+#: ../src/sugar/activity/activity.py:925
+msgid "Keep error: all changes will be lost"
+msgstr "Պահման վրիպում. բոլոր փոփոխությունները կկորչեն:"
+
+#: ../src/sugar/activity/activity.py:928
+msgid "Don't stop"
+msgstr "Կանգ չառնել"
+
+#: ../src/sugar/activity/activity.py:931
+msgid "Stop anyway"
+msgstr "Կանգ առնել ամեն դեպքում"
+
+#: ../src/sugar/activity/namingalert.py:79
+msgid "Name this entry"
+msgstr "Անվանել այս գրառումը"
+
+#: ../src/sugar/activity/namingalert.py:275
+msgid "Untitled"
+msgstr "Անանուն"
+
+#: ../src/sugar/activity/namingalert.py:282
+msgid "Description:"
+msgstr "Նկարագրություն"
+
+#: ../src/sugar/activity/namingalert.py:306
+msgid "Tags:"
+msgstr "Թեգեր՝"
+
+#: ../src/sugar/graphics/alert.py:288 ../src/sugar/graphics/alert.py:367
+msgid "Cancel"
+msgstr "Չեղարկել"
+
+#: ../src/sugar/graphics/alert.py:292 ../src/sugar/graphics/alert.py:426
+msgid "Ok"
+msgstr "OK"
+
+#: ../src/sugar/graphics/alert.py:377
+msgid "Continue"
+msgstr "Շարունակել"
+
+#: ../src/sugar/graphics/colorbutton.py:49
+msgid "Choose a color"
+msgstr "Ընտրել գույնը"
+
+#: ../src/sugar/graphics/colorbutton.py:267
+msgid "Red"
+msgstr "Կարմիր"
+
+#: ../src/sugar/graphics/colorbutton.py:269
+msgid "Green"
+msgstr "Կանաչ"
+
+#: ../src/sugar/graphics/colorbutton.py:271
+msgid "Blue"
+msgstr "Կապույտ"
+
+#: ../src/sugar/util.py:196
+msgid " and "
+msgstr " և "
+
+#: ../src/sugar/util.py:197
+msgid ", "
+msgstr ", "
+
+#. TRANS: Indicating something that just happened, eg. "just now", "moments ago"
+#: ../src/sugar/util.py:200
+msgid "Seconds ago"
+msgstr "Վայրկյան առաջ"
+
+#. TRANS: Indicating time passed, eg. "[10 day, 5 hours] ago",
+#. "[2 minutes] in the past", or "[3 years, 1 month] earlier"
+#: ../src/sugar/util.py:204
+#, python-format
+msgid "%s ago"
+msgstr "%s առաջ"
+
+#. TRANS: Relative dates (eg. 1 month and 5 days).
+#: ../src/sugar/util.py:217
+#, python-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "%d տարի"
+
+#: ../src/sugar/util.py:218
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d ամիս"
+
+#: ../src/sugar/util.py:219
+#, python-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "%d շաբաթ"
+
+#: ../src/sugar/util.py:220
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d օր"
+
+#: ../src/sugar/util.py:221
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d ժամ"
+
+#: ../src/sugar/util.py:222
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d րոպե"
