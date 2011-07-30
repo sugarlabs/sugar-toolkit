@@ -8,19 +8,19 @@ msgstr ""
 "Project-Id-Version: glucose 84\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-29 17:35-0400\n"
-"PO-Revision-Date: 2011-05-16 14:51+0200\n"
-"Last-Translator: Chris <cjl@laptop.org>\n"
+"PO-Revision-Date: 2011-07-29 19:09+0200\n"
+"Last-Translator:  <anush.mkrtchyan@ca1492.com>\n"
 "Language-Team: Armenian\n"
 "Language: hy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.0.1\n"
 
 #: ../src/sugar/activity/activity.py:123
 msgid "Share with:"
-msgstr ""
+msgstr "Համատեղ օգտագործում."
 
 #: ../src/sugar/activity/activity.py:125
 msgid "Private"
@@ -70,7 +70,7 @@ msgstr "Պահման վրիպում"
 
 #: ../src/sugar/activity/activity.py:925
 msgid "Keep error: all changes will be lost"
-msgstr "Պահման վրիպում. բոլոր փոփոխությունները կկորչեն:"
+msgstr "Պահման վրիպում. բոլոր փոփոխությունները կկորչեն"
 
 #: ../src/sugar/activity/activity.py:928
 msgid "Don't stop"
@@ -90,11 +90,11 @@ msgstr "Անանուն"
 
 #: ../src/sugar/activity/namingalert.py:282
 msgid "Description:"
-msgstr "Նկարագրություն"
+msgstr "Նկարագրություն."
 
 #: ../src/sugar/activity/namingalert.py:306
 msgid "Tags:"
-msgstr "Թեգեր՝"
+msgstr "Թեգեր՝."
 
 #: ../src/sugar/graphics/alert.py:288 ../src/sugar/graphics/alert.py:367
 msgid "Cancel"
@@ -146,37 +146,43 @@ msgstr "%s առաջ"
 
 #. TRANS: Relative dates (eg. 1 month and 5 days).
 #: ../src/sugar/util.py:217
-#, python-format
+#, python-format, 
 msgid "%d year"
 msgid_plural "%d years"
 msgstr[0] "%d տարի"
+msgstr[1] "%d տարիներ"
 
 #: ../src/sugar/util.py:218
-#, python-format
+#, python-format, 
 msgid "%d month"
 msgid_plural "%d months"
 msgstr[0] "%d ամիս"
+msgstr[1] "%d ամիսներ"
 
 #: ../src/sugar/util.py:219
-#, python-format
+#, python-format, 
 msgid "%d week"
 msgid_plural "%d weeks"
 msgstr[0] "%d շաբաթ"
+msgstr[1] "%d շաբաթներ"
 
 #: ../src/sugar/util.py:220
-#, python-format
+#, python-format, 
 msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] "%d օր"
+msgstr[1] "%d օրեր"
 
 #: ../src/sugar/util.py:221
-#, python-format
+#, python-format, 
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d ժամ"
+msgstr[1] "%d ժամեր"
 
 #: ../src/sugar/util.py:222
-#, python-format
+#, python-format, 
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d րոպե"
+msgstr[1] "%d րոպեներ"
