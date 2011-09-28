@@ -6,35 +6,35 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-20 13:10-0500\n"
-"PO-Revision-Date: 2009-09-01 12:12-0400\n"
-"Last-Translator: Carlo Falciola <cfalciola@yahoo.it>\n"
+"POT-Creation-Date: 2011-09-23 11:57-0400\n"
+"PO-Revision-Date: 2011-09-28 18:57+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 1.2.1\n"
+"X-Generator: Pootle 2.0.5\n"
 
-#: ../src/sugar/activity/activity.py:338
+#: ../src/sugar/activity/activity.py:352
 #, python-format
 msgid "%s Activity"
-msgstr "Attività %s "
+msgstr "Attività %s"
 
-#: ../src/sugar/activity/activity.py:738
+#: ../src/sugar/activity/activity.py:813
 msgid "Keep error"
 msgstr "Errore di memorizzazione"
 
-#: ../src/sugar/activity/activity.py:739
+#: ../src/sugar/activity/activity.py:814
 msgid "Keep error: all changes will be lost"
 msgstr "Errore di memorizzazione: tutte le modifiche saranno perse"
 
-#: ../src/sugar/activity/activity.py:742
+#: ../src/sugar/activity/activity.py:817
 msgid "Don't stop"
 msgstr "Non Fermare"
 
-#: ../src/sugar/activity/activity.py:745
+#: ../src/sugar/activity/activity.py:820
 msgid "Stop anyway"
 msgstr "Ferma comunque"
 
@@ -43,19 +43,19 @@ msgid "Name this entry"
 msgstr "Dai un nome a questo oggetto"
 
 #: ../src/sugar/activity/namingalert.py:87
-#: ../src/sugar/activity/widgets.py:166
+#: ../src/sugar/activity/widgets.py:172
 msgid "Keep"
 msgstr "Memorizza"
 
-#: ../src/sugar/activity/namingalert.py:283
+#: ../src/sugar/activity/namingalert.py:282
 msgid "Untitled"
 msgstr "Senza nome"
 
-#: ../src/sugar/activity/namingalert.py:290
+#: ../src/sugar/activity/namingalert.py:289
 msgid "Description:"
 msgstr "Descrizione:"
 
-#: ../src/sugar/activity/namingalert.py:314
+#: ../src/sugar/activity/namingalert.py:313
 msgid "Tags:"
 msgstr "Etichette:"
 
@@ -75,31 +75,32 @@ msgstr "Ripeti"
 msgid "Copy"
 msgstr "Copia"
 
-#: ../src/sugar/activity/widgets.py:117
+#: ../src/sugar/activity/widgets.py:118
 msgid "Paste"
 msgstr "Incolla"
 
-#: ../src/sugar/activity/widgets.py:127
+#: ../src/sugar/activity/widgets.py:129
 msgid "Private"
 msgstr "Privato"
 
-#: ../src/sugar/activity/widgets.py:134
+#: ../src/sugar/activity/widgets.py:136
 msgid "My Neighborhood"
 msgstr "I miei vicini"
 
-#: ../src/sugar/activity/widgets.py:345
+#: ../src/sugar/activity/widgets.py:358
 msgid "Activity"
 msgstr "Attività"
 
-#: ../src/sugar/graphics/alert.py:286 ../src/sugar/graphics/alert.py:365
+#: ../src/sugar/graphics/alert.py:287 ../src/sugar/graphics/alert.py:428
 msgid "Cancel"
 msgstr "Cancella"
 
-#: ../src/sugar/graphics/alert.py:290 ../src/sugar/graphics/alert.py:424
+#: ../src/sugar/graphics/alert.py:291 ../src/sugar/graphics/alert.py:337
+#: ../src/sugar/graphics/alert.py:478
 msgid "Ok"
 msgstr "Ok"
 
-#: ../src/sugar/graphics/alert.py:375
+#: ../src/sugar/graphics/alert.py:433
 msgid "Continue"
 msgstr "Continua"
 
@@ -119,17 +120,17 @@ msgstr "Verde"
 msgid "Blue"
 msgstr "Blu"
 
-#: ../src/sugar/util.py:218
+#: ../src/sugar/util.py:217
 msgid " and "
 msgstr " e "
 
-#: ../src/sugar/util.py:219
+#: ../src/sugar/util.py:218
 msgid ", "
 msgstr ", "
 
 # TRANS: Indicating something that just happened, eg. "just now", "moments ago"
 #. TRANS: Indicating something that just happened, eg. "just now", "moments ago"
-#: ../src/sugar/util.py:222
+#: ../src/sugar/util.py:221
 msgid "Seconds ago"
 msgstr "Pochi secondi fa"
 
@@ -137,7 +138,7 @@ msgstr "Pochi secondi fa"
 # "[2 minutes] in the past", or "[3 years, 1 month] earlier"
 #. TRANS: Indicating time passed, eg. "[10 day, 5 hours] ago",
 #. "[2 minutes] in the past", or "[3 years, 1 month] earlier"
-#: ../src/sugar/util.py:226
+#: ../src/sugar/util.py:225
 #, python-format
 msgid "%s ago"
 msgstr "%s fa"
@@ -145,7 +146,7 @@ msgstr "%s fa"
 # True if Plural Form 1 means Singular.... (cf 2008_06_23)
 # TRANS: Relative dates (eg. 1 month and 5 days).
 #. TRANS: Relative dates (eg. 1 month and 5 days).
-#: ../src/sugar/util.py:241
+#: ../src/sugar/util.py:240
 #, python-format
 msgid "%d year"
 msgid_plural "%d years"
@@ -153,7 +154,7 @@ msgstr[0] "%d anno"
 msgstr[1] "%d anni"
 
 # True if Plural Form 1 means Singular.... (cf 2008_06_23)
-#: ../src/sugar/util.py:242
+#: ../src/sugar/util.py:241
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
@@ -161,7 +162,7 @@ msgstr[0] "%d mese"
 msgstr[1] "%d mesi"
 
 # True if Plural Form 1 means Singular.... (cf 2008_06_23)
-#: ../src/sugar/util.py:243
+#: ../src/sugar/util.py:242
 #, python-format
 msgid "%d week"
 msgid_plural "%d weeks"
@@ -169,7 +170,7 @@ msgstr[0] "%d settimana"
 msgstr[1] "%d settimane"
 
 # True if Plural Form 1 means Singular.... (cf 2008_06_23)
-#: ../src/sugar/util.py:244
+#: ../src/sugar/util.py:243
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
@@ -177,40 +178,40 @@ msgstr[0] "%d giorno"
 msgstr[1] "%d giorni"
 
 # True if Plural Form 1 means Singular.... (cf 2008_06_23)
-#: ../src/sugar/util.py:245
+#: ../src/sugar/util.py:244
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d ora"
 msgstr[1] "%d ore"
 
-#: ../src/sugar/util.py:246
+#: ../src/sugar/util.py:245
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d minuto"
 msgstr[1] "%d minuti"
 
-#: ../src/sugar/util.py:339
+#: ../src/sugar/util.py:346
 msgid "Empty"
 msgstr "Vuoto"
 
-#: ../src/sugar/util.py:341
+#: ../src/sugar/util.py:348
 #, python-format
 msgid "%d B"
 msgstr "%d B"
 
-#: ../src/sugar/util.py:343
+#: ../src/sugar/util.py:350
 #, python-format
 msgid "%d KB"
 msgstr "%d KB"
 
-#: ../src/sugar/util.py:345
+#: ../src/sugar/util.py:352
 #, python-format
 msgid "%d MB"
 msgstr "%d MB"
 
-#: ../src/sugar/util.py:347
+#: ../src/sugar/util.py:354
 #, python-format
 msgid "%d GB"
 msgstr "%d GB"
