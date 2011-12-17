@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-09-28 06:08-0400\n"
-"PO-Revision-Date: 2011-07-19 22:07+0200\n"
+"PO-Revision-Date: 2011-12-17 09:58+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Pootle 2.0.1\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: ../src/sugar/activity/activity.py:336
 #, python-format
@@ -36,11 +36,11 @@ msgstr "%s Գործունեություն"
 
 #: ../src/sugar/activity/activity.py:791
 msgid "Keep error"
-msgstr "Պահման վրիպում"
+msgstr "Պահման ձախողում"
 
 #: ../src/sugar/activity/activity.py:792
 msgid "Keep error: all changes will be lost"
-msgstr "Պահման վրիպում. բոլոր փոփոխությունները կկորչեն"
+msgstr "Պահման ձախողում. բոլոր փոփոխությունները կկորչեն"
 
 #: ../src/sugar/activity/activity.py:795
 msgid "Don't stop"
@@ -52,7 +52,7 @@ msgstr "Կանգ առնել ամեն դեպքում"
 
 #: ../src/sugar/activity/namingalert.py:82
 msgid "Name this entry"
-msgstr "Անվանել այս գրառումը"
+msgstr "Անվանակոչել այս գրառումը"
 
 #: ../src/sugar/activity/namingalert.py:87
 #: ../src/sugar/activity/widgets.py:169
@@ -61,7 +61,7 @@ msgstr "Պահել"
 
 #: ../src/sugar/activity/namingalert.py:283
 msgid "Untitled"
-msgstr "Անանուն"
+msgstr "Անվերնագիր"
 
 #: ../src/sugar/activity/namingalert.py:290
 msgid "Description:"
@@ -69,7 +69,7 @@ msgstr "Նկարագրություն."
 
 #: ../src/sugar/activity/namingalert.py:314
 msgid "Tags:"
-msgstr "Թեգեր՝."
+msgstr "Պիտակներ."
 
 #: ../src/sugar/activity/widgets.py:83
 msgid "Stop"
@@ -89,7 +89,7 @@ msgstr "Պատճենել"
 
 #: ../src/sugar/activity/widgets.py:118
 msgid "Paste"
-msgstr "Ներդնել"
+msgstr "փակցնել"
 
 #: ../src/sugar/activity/widgets.py:129
 msgid "Private"
@@ -97,7 +97,7 @@ msgstr "Անձնական"
 
 #: ../src/sugar/activity/widgets.py:136
 msgid "My Neighborhood"
-msgstr "Իմ հարեվանությունը"
+msgstr "Իմ հարևանությունը"
 
 #: ../src/sugar/activity/widgets.py:349
 msgid "Activity"
@@ -155,51 +155,51 @@ msgstr "%s առաջ"
 #. TRANS: Relative dates (eg. 1 month and 5 days).
 #: ../src/sugar/util.py:241
 #, python-format
-#, python-format, fuzzy
+#, python-format,
 msgid "%d year"
 msgid_plural "%d years"
 msgstr[0] "%d տարի"
-msgstr[1] ""
+msgstr[1] "%d տարի"
 
 #: ../src/sugar/util.py:242
 #, python-format
-#, python-format, fuzzy
+#, python-format,
 msgid "%d month"
 msgid_plural "%d months"
 msgstr[0] "%d ամիս"
-msgstr[1] ""
+msgstr[1] "%d ամիս"
 
 #: ../src/sugar/util.py:243
 #, python-format
-#, python-format, fuzzy
+#, python-format,
 msgid "%d week"
 msgid_plural "%d weeks"
 msgstr[0] "%d շաբաթ"
-msgstr[1] ""
+msgstr[1] "%d շաբաթ"
 
 #: ../src/sugar/util.py:244
 #, python-format
-#, python-format, fuzzy
+#, python-format,
 msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] "%d օր"
-msgstr[1] ""
+msgstr[1] "%d օր"
 
 #: ../src/sugar/util.py:245
 #, python-format
-#, python-format, fuzzy
+#, python-format,
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d ժամ"
-msgstr[1] ""
+msgstr[1] "%d ժամ"
 
 #: ../src/sugar/util.py:246
 #, python-format
-#, python-format, fuzzy
+#, python-format,
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d րոպե"
-msgstr[1] ""
+msgstr[1] "%d րոպե"
 
 #: ../src/sugar/util.py:339
 msgid "Empty"
