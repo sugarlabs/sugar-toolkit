@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-09-23 11:57-0400\n"
-"PO-Revision-Date: 2011-12-17 09:59+0200\n"
-"Last-Translator: Chris <cjl@laptop.org>\n"
+"PO-Revision-Date: 2011-12-19 07:57+0200\n"
+"Last-Translator: Jasmine <udea_jasmine@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
 "MIME-Version: 1.0\n"
@@ -56,7 +56,7 @@ msgstr "Պահել"
 #: ../src/sugar/activity/namingalert.py:282
 #: ../src/sugar/activity/namingalert.py:283
 msgid "Untitled"
-msgstr "Անանուն"
+msgstr "Անվերնագիր"
 
 #: ../src/sugar/activity/namingalert.py:289
 #: ../src/sugar/activity/namingalert.py:290
@@ -74,7 +74,7 @@ msgstr "Կանգ"
 
 #: ../src/sugar/activity/widgets.py:95
 msgid "Undo"
-msgstr "Չեղյալ հայտարարել"
+msgstr "Ետարկել"
 
 #: ../src/sugar/activity/widgets.py:103
 msgid "Redo"
@@ -86,7 +86,7 @@ msgstr "Պատճենել"
 
 #: ../src/sugar/activity/widgets.py:118
 msgid "Paste"
-msgstr "փակցնել"
+msgstr "Փակցնել"
 
 #: ../src/sugar/activity/widgets.py:129
 msgid "Private"
@@ -94,7 +94,7 @@ msgstr "Անձնական"
 
 #: ../src/sugar/activity/widgets.py:136
 msgid "My Neighborhood"
-msgstr "Իմ հարեվանությունը"
+msgstr "Իմ հարևանությունը"
 
 #: ../src/sugar/activity/widgets.py:358
 #: ../src/sugar/activity/widgets.py:349
