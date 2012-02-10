@@ -2,25 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-09-28 06:08-0400\n"
-"PO-Revision-Date: 2011-12-17 09:58+0200\n"
-"Last-Translator: Chris <cjl@laptop.org>\n"
+"PO-Revision-Date: 2011-12-19 03:10+0200\n"
+"Last-Translator: Jasmine <udea_jasmine@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
 "MIME-Version: 1.0\n"
@@ -77,7 +65,7 @@ msgstr "Կանգ"
 
 #: ../src/sugar/activity/widgets.py:95
 msgid "Undo"
-msgstr "Չեղյալ հայտարարել"
+msgstr "Ետարկել"
 
 #: ../src/sugar/activity/widgets.py:103
 msgid "Redo"
