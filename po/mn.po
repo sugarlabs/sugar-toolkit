@@ -211,5 +211,3 @@ msgstr "%d МБайт"
 msgid "%d GB"
 msgstr "%d ГБайт"
 
-#~ msgid "Share with:"
-#~ msgstr "Хуваалцах:"
