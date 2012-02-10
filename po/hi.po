@@ -2,38 +2,39 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-20 13:10-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-09-28 06:08-0400\n"
+"PO-Revision-Date: 2011-10-02 05:45+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.1.1rc4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
 
-#: ../src/sugar/activity/activity.py:338
+#: ../src/sugar/activity/activity.py:336
 #, python-format
 msgid "%s Activity"
 msgstr "%s क्रियाएँ"
 
-#: ../src/sugar/activity/activity.py:738
+#: ../src/sugar/activity/activity.py:791
 msgid "Keep error"
 msgstr "त्रुटि को रखे रहें"
 
-#: ../src/sugar/activity/activity.py:739
+#: ../src/sugar/activity/activity.py:792
 msgid "Keep error: all changes will be lost"
 msgstr "त्रुटि को रखे रहें: सारे परिवर्तन खो जाएँगे"
 
-#: ../src/sugar/activity/activity.py:742
+#: ../src/sugar/activity/activity.py:795
 msgid "Don't stop"
 msgstr "बन्द न करें"
 
-#: ../src/sugar/activity/activity.py:745
+#: ../src/sugar/activity/activity.py:798
 msgid "Stop anyway"
 msgstr "जैसे भी हो बन्द करें"
 
@@ -42,7 +43,7 @@ msgid "Name this entry"
 msgstr "इस प्रविष्टि को नाम दें"
 
 #: ../src/sugar/activity/namingalert.py:87
-#: ../src/sugar/activity/widgets.py:166
+#: ../src/sugar/activity/widgets.py:169
 msgid "Keep"
 msgstr "रखें"
 
@@ -74,31 +75,32 @@ msgstr "दोहराएँ"
 msgid "Copy"
 msgstr "नक़ल"
 
-#: ../src/sugar/activity/widgets.py:117
+#: ../src/sugar/activity/widgets.py:118
 msgid "Paste"
 msgstr "चिपकाएँ"
 
-#: ../src/sugar/activity/widgets.py:127
+#: ../src/sugar/activity/widgets.py:129
 msgid "Private"
 msgstr "निजी"
 
-#: ../src/sugar/activity/widgets.py:134
+#: ../src/sugar/activity/widgets.py:136
 msgid "My Neighborhood"
 msgstr "मेरा पड़ोस"
 
-#: ../src/sugar/activity/widgets.py:345
+#: ../src/sugar/activity/widgets.py:349
 msgid "Activity"
 msgstr "क्रियाएँ"
 
-#: ../src/sugar/graphics/alert.py:286 ../src/sugar/graphics/alert.py:365
+#: ../src/sugar/graphics/alert.py:287 ../src/sugar/graphics/alert.py:410
 msgid "Cancel"
 msgstr "रद्द करें"
 
-#: ../src/sugar/graphics/alert.py:290 ../src/sugar/graphics/alert.py:424
+#: ../src/sugar/graphics/alert.py:291 ../src/sugar/graphics/alert.py:336
+#: ../src/sugar/graphics/alert.py:469
 msgid "Ok"
 msgstr "ठीक"
 
-#: ../src/sugar/graphics/alert.py:375
+#: ../src/sugar/graphics/alert.py:420
 msgid "Continue"
 msgstr "जारी रखें"
 
@@ -120,11 +122,11 @@ msgstr "नीला"
 
 #: ../src/sugar/util.py:218
 msgid " and "
-msgstr " और"
+msgstr " और "
 
 #: ../src/sugar/util.py:219
 msgid ", "
-msgstr ","
+msgstr ", "
 
 #. TRANS: Indicating something that just happened, eg. "just now", "moments ago"
 #: ../src/sugar/util.py:222
