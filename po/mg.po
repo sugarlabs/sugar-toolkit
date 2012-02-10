@@ -2,32 +2,20 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-09-28 06:08-0400\n"
-"PO-Revision-Date: 2009-06-05 07:50-0400\n"
-"Last-Translator: Rakoto Manassé <rakoto.manasse@auf.org>\n"
+"PO-Revision-Date: 2012-02-10 08:53+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Pootle 1.2.1\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: ../src/sugar/activity/activity.py:336
 #, python-format
@@ -134,11 +122,11 @@ msgstr "Manga"
 
 #: ../src/sugar/util.py:218
 msgid " and "
-msgstr "ary_"
+msgstr " ary "
 
 #: ../src/sugar/util.py:219
 msgid ", "
-msgstr ",_"
+msgstr ", "
 
 #. TRANS: Indicating something that just happened, eg. "just now", "moments ago"
 #: ../src/sugar/util.py:222
@@ -165,14 +153,14 @@ msgstr[1] "%d taona"
 msgid "%d month"
 msgid_plural "%d months"
 msgstr[0] "%d volana"
-msgstr[1] "% volana"
+msgstr[1] "%d volana"
 
 #: ../src/sugar/util.py:243
 #, python-format
 msgid "%d week"
 msgid_plural "%d weeks"
 msgstr[0] "%d herinandro"
-msgstr[1] "% herinandro"
+msgstr[1] "%d herinandro"
 
 #: ../src/sugar/util.py:244
 #, python-format
@@ -219,5 +207,3 @@ msgstr ""
 msgid "%d GB"
 msgstr ""
 
-#~ msgid "Share with:"
-#~ msgstr "zarao amin'i"
