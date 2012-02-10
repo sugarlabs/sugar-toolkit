@@ -2,18 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -200,26 +188,22 @@ msgstr "ទទេ"
 
 #: ../src/sugar/util.py:341
 #, python-format
+#, python-format, fuzzy
 msgid "%d B"
-msgstr ""
+msgstr "%d គីឡូបៃ"
 
 #: ../src/sugar/util.py:343
-#: ../src/sugar/util.py:350
 #, python-format
 msgid "%d KB"
 msgstr "%d គីឡូបៃ"
 
 #: ../src/sugar/util.py:345
-#: ../src/sugar/util.py:352
 #, python-format
 msgid "%d MB"
 msgstr "%d មេកាបៃ"
 
 #: ../src/sugar/util.py:347
-#: ../src/sugar/util.py:354
 #, python-format
 msgid "%d GB"
 msgstr "%d ជីកាបៃ"
 
-#~ msgid "Share with:"
-#~ msgstr "រួមជំណែក"
