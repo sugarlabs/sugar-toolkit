@@ -1,0 +1,213 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-28 06:08-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.6.0\n"
+
+#: ../src/sugar/activity/activity.py:336
+#, python-format
+msgid "%s Activity"
+msgstr "%s активност"
+
+#: ../src/sugar/activity/activity.py:791
+msgid "Keep error"
+msgstr "Задржи грешку"
+
+#: ../src/sugar/activity/activity.py:792
+msgid "Keep error: all changes will be lost"
+msgstr "Задржи грешку: све измене ће бити изгубљене"
+
+#: ../src/sugar/activity/activity.py:795
+msgid "Don't stop"
+msgstr "Не заустављај"
+
+#: ../src/sugar/activity/activity.py:798
+msgid "Stop anyway"
+msgstr "Ипак заустави"
+
+#: ../src/sugar/activity/namingalert.py:82
+msgid "Name this entry"
+msgstr "Дај назив овој ставци"
+
+#: ../src/sugar/activity/namingalert.py:87
+#: ../src/sugar/activity/widgets.py:169
+msgid "Keep"
+msgstr "Задржи"
+
+#: ../src/sugar/activity/namingalert.py:283
+msgid "Untitled"
+msgstr "Неименовано"
+
+#: ../src/sugar/activity/namingalert.py:290
+msgid "Description:"
+msgstr "Опис:"
+
+#: ../src/sugar/activity/namingalert.py:314
+msgid "Tags:"
+msgstr "Ознаке:"
+
+#: ../src/sugar/activity/widgets.py:83
+msgid "Stop"
+msgstr "Заустави"
+
+#: ../src/sugar/activity/widgets.py:95
+msgid "Undo"
+msgstr "Поништи"
+
+#: ../src/sugar/activity/widgets.py:103
+msgid "Redo"
+msgstr "Поврати"
+
+#: ../src/sugar/activity/widgets.py:110
+msgid "Copy"
+msgstr "Умножи"
+
+#: ../src/sugar/activity/widgets.py:118
+msgid "Paste"
+msgstr "Убаци"
+
+#: ../src/sugar/activity/widgets.py:129
+msgid "Private"
+msgstr "Приватно"
+
+#: ../src/sugar/activity/widgets.py:136
+msgid "My Neighborhood"
+msgstr "Мој комшилук"
+
+#: ../src/sugar/activity/widgets.py:349
+msgid "Activity"
+msgstr "Активност"
+
+#: ../src/sugar/graphics/alert.py:287 ../src/sugar/graphics/alert.py:410
+msgid "Cancel"
+msgstr "Откажи"
+
+#: ../src/sugar/graphics/alert.py:291 ../src/sugar/graphics/alert.py:336
+#: ../src/sugar/graphics/alert.py:469
+msgid "Ok"
+msgstr "У реду"
+
+#: ../src/sugar/graphics/alert.py:420
+msgid "Continue"
+msgstr "Настави"
+
+#: ../src/sugar/graphics/colorbutton.py:52
+msgid "Choose a color"
+msgstr "Изаберите боју"
+
+#: ../src/sugar/graphics/colorbutton.py:272
+msgid "Red"
+msgstr "Црвена"
+
+#: ../src/sugar/graphics/colorbutton.py:274
+msgid "Green"
+msgstr "Зелена"
+
+#: ../src/sugar/graphics/colorbutton.py:276
+msgid "Blue"
+msgstr "Плава"
+
+#: ../src/sugar/util.py:218
+msgid " and "
+msgstr " и "
+
+#: ../src/sugar/util.py:219
+msgid ", "
+msgstr ", "
+
+#. TRANS: Indicating something that just happened, eg. "just now", "moments ago"
+#: ../src/sugar/util.py:222
+msgid "Seconds ago"
+msgstr "Пре секунде"
+
+#. TRANS: Indicating time passed, eg. "[10 day, 5 hours] ago",
+#. "[2 minutes] in the past", or "[3 years, 1 month] earlier"
+#: ../src/sugar/util.py:226
+#, python-format
+msgid "%s ago"
+msgstr "Пре %s"
+
+#. TRANS: Relative dates (eg. 1 month and 5 days).
+#: ../src/sugar/util.py:241
+#, python-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "%d годину"
+msgstr[1] "%d године"
+msgstr[2] "%d година"
+
+#: ../src/sugar/util.py:242
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d месец"
+msgstr[1] "%d месеца"
+msgstr[2] "%d месеци"
+
+#: ../src/sugar/util.py:243
+#, python-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "%d недељу"
+msgstr[1] "%d недеље"
+msgstr[2] "%d недеља"
+
+#: ../src/sugar/util.py:244
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d дан"
+msgstr[1] "%d дана"
+msgstr[2] "%d дана"
+
+#: ../src/sugar/util.py:245
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d сат"
+msgstr[1] "%d сата"
+msgstr[2] "%d сати"
+
+#: ../src/sugar/util.py:246
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d минут"
+msgstr[1] "%d минута"
+msgstr[2] "%d минута"
+
+#: ../src/sugar/util.py:339
+msgid "Empty"
+msgstr "Празно"
+
+#: ../src/sugar/util.py:341
+#, python-format
+msgid "%d B"
+msgstr "%d B"
+
+#: ../src/sugar/util.py:343
+#, python-format
+msgid "%d KB"
+msgstr "%d KB"
+
+#: ../src/sugar/util.py:345
+#, python-format
+msgid "%d MB"
+msgstr "%d MB"
+
+#: ../src/sugar/util.py:347
+#, python-format
+msgid "%d GB"
+msgstr "%d GB"
