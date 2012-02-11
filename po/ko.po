@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-09-28 06:08-0400\n"
-"PO-Revision-Date: 2009-05-13 13:09-0400\n"
-"Last-Translator: Donghee Park <i4u_4ever@yahoo.com>\n"
+"PO-Revision-Date: 2012-02-11 06:43+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 1.2.1\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: ../src/sugar/activity/activity.py:336
 #, python-format
@@ -28,7 +28,7 @@ msgstr "에러 무시"
 
 #: ../src/sugar/activity/activity.py:792
 msgid "Keep error: all changes will be lost"
-msgstr "에러 무시: 변경된 모든내용이 사라집니다."
+msgstr "에러 무시: 변경된 모든내용이 사라집니다"
 
 #: ../src/sugar/activity/activity.py:795
 msgid "Don't stop"
@@ -201,4 +201,3 @@ msgstr ""
 #, python-format
 msgid "%d GB"
 msgstr ""
-
