@@ -18,28 +18,23 @@ msgstr ""
 "X-Generator: Pootle 2.0.5\n"
 
 #: ../src/sugar/activity/activity.py:352
-#: ../src/sugar/activity/activity.py:336
 #, python-format
 msgid "%s Activity"
 msgstr "%s Գործունեություն"
 
 #: ../src/sugar/activity/activity.py:813
-#: ../src/sugar/activity/activity.py:791
 msgid "Keep error"
 msgstr "Պահման ձախողում"
 
 #: ../src/sugar/activity/activity.py:814
-#: ../src/sugar/activity/activity.py:792
 msgid "Keep error: all changes will be lost"
 msgstr "Պահման ձախողում. բոլոր փոփոխությունները կկորչեն"
 
 #: ../src/sugar/activity/activity.py:817
-#: ../src/sugar/activity/activity.py:795
 msgid "Don't stop"
 msgstr "Կանգ չառնել"
 
 #: ../src/sugar/activity/activity.py:820
-#: ../src/sugar/activity/activity.py:798
 msgid "Stop anyway"
 msgstr "Կանգ առնել ամեն դեպքում"
 
@@ -49,22 +44,18 @@ msgstr "Անվանակոչել այս գրառումը"
 
 #: ../src/sugar/activity/namingalert.py:87
 #: ../src/sugar/activity/widgets.py:172
-#: ../src/sugar/activity/widgets.py:169
 msgid "Keep"
 msgstr "Պահել"
 
 #: ../src/sugar/activity/namingalert.py:282
-#: ../src/sugar/activity/namingalert.py:283
 msgid "Untitled"
 msgstr "Անվերնագիր"
 
 #: ../src/sugar/activity/namingalert.py:289
-#: ../src/sugar/activity/namingalert.py:290
 msgid "Description:"
 msgstr "Նկարագրություն."
 
 #: ../src/sugar/activity/namingalert.py:313
-#: ../src/sugar/activity/namingalert.py:314
 msgid "Tags:"
 msgstr "Պիտակներ."
 
@@ -97,24 +88,19 @@ msgid "My Neighborhood"
 msgstr "Իմ հարևանությունը"
 
 #: ../src/sugar/activity/widgets.py:358
-#: ../src/sugar/activity/widgets.py:349
 msgid "Activity"
 msgstr "Գործունեություն"
 
 #: ../src/sugar/graphics/alert.py:287 ../src/sugar/graphics/alert.py:428
-#: ../src/sugar/graphics/alert.py:410
 msgid "Cancel"
 msgstr "Չեղարկել"
 
 #: ../src/sugar/graphics/alert.py:291 ../src/sugar/graphics/alert.py:337
 #: ../src/sugar/graphics/alert.py:478
-#: ../src/sugar/graphics/alert.py:336
-#: ../src/sugar/graphics/alert.py:469
 msgid "Ok"
 msgstr "OK"
 
 #: ../src/sugar/graphics/alert.py:433
-#: ../src/sugar/graphics/alert.py:420
 msgid "Continue"
 msgstr "Շարունակել"
 
@@ -135,25 +121,21 @@ msgid "Blue"
 msgstr "Կապույտ"
 
 #: ../src/sugar/util.py:217
-#: ../src/sugar/util.py:218
 msgid " and "
 msgstr " և "
 
 #: ../src/sugar/util.py:218
-#: ../src/sugar/util.py:219
 msgid ", "
 msgstr ", "
 
 #. TRANS: Indicating something that just happened, eg. "just now", "moments ago"
 #: ../src/sugar/util.py:221
-#: ../src/sugar/util.py:222
 msgid "Seconds ago"
 msgstr "Վայրկյան առաջ"
 
 #. TRANS: Indicating time passed, eg. "[10 day, 5 hours] ago",
 #. "[2 minutes] in the past", or "[3 years, 1 month] earlier"
 #: ../src/sugar/util.py:225
-#: ../src/sugar/util.py:226
 #, python-format
 msgid "%s ago"
 msgstr "%s առաջ"
@@ -202,30 +184,25 @@ msgstr[0] "%d րոպե"
 msgstr[1] "%d րոպե"
 
 #: ../src/sugar/util.py:346
-#: ../src/sugar/util.py:339
 msgid "Empty"
 msgstr "Դատարկ"
 
 #: ../src/sugar/util.py:348
-#: ../src/sugar/util.py:341
 #, python-format
 msgid "%d B"
 msgstr "%d B"
 
 #: ../src/sugar/util.py:350
-#: ../src/sugar/util.py:343
 #, python-format
 msgid "%d KB"
 msgstr "%d KB"
 
 #: ../src/sugar/util.py:352
-#: ../src/sugar/util.py:345
 #, python-format
 msgid "%d MB"
 msgstr "%d MB"
 
 #: ../src/sugar/util.py:354
-#: ../src/sugar/util.py:347
 #, python-format
 msgid "%d GB"
 msgstr "%d GB"
