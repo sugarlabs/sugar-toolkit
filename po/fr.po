@@ -210,4 +210,3 @@ msgstr "%d Mo"
 #, python-format
 msgid "%d GB"
 msgstr "%d Go"
-
