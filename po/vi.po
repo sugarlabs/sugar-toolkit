@@ -123,7 +123,6 @@ msgstr "Lục"
 msgid "Blue"
 msgstr "Xanh"
 
-# Không cần từ. No word needed.
 #: ../src/sugar/util.py:218
 msgid " and "
 msgstr ""
@@ -208,4 +207,3 @@ msgstr "%d MB"
 #, python-format
 msgid "%d GB"
 msgstr "%d GB"
-
