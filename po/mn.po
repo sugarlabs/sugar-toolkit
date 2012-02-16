@@ -210,4 +210,3 @@ msgstr "%d МБайт"
 #, python-format
 msgid "%d GB"
 msgstr "%d ГБайт"
-
