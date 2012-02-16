@@ -206,4 +206,3 @@ msgstr "%d មេកាបៃ"
 #, python-format
 msgid "%d GB"
 msgstr "%d ជីកាបៃ"
-
