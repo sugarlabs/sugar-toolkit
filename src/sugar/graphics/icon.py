@@ -182,9 +182,9 @@ class _IconBuffer(object):
 
             if not sensitive:
                 pixbuf = self._get_insensitive_pixbuf(pixbuf, widget)
-            surface = hippo.cairo_surface_from_gdk_pixbuf(pixbuf)
-            context.set_source_surface(surface, 0, 0)
-            context.paint()
+            gdkcontext = gtk.gdk.CairoContext(context)
+            gdkcontext.set_source_pixbuf(pixbuf, 0, 0)
+            gdkcontext.paint()
 
     def _get_size(self, icon_width, icon_height, padding):
         if self.width is not None and self.height is not None:
@@ -280,8 +280,9 @@ class _IconBuffer(object):
             surface = cairo.ImageSurface(cairo.FORMAT_RGB24, int(width),
                                          int(height))
             context = cairo.Context(surface)
-            context = gtk.gdk.CairoContext(context)
-            context.set_source_color(self.background_color)
+            context.set_source_rgb(self.background_color.red,
+                                   self.background_color.blue,
+                                   self.background_color.green)
             context.paint()
 
         context.scale(float(width) / (icon_width + padding * 2),
@@ -295,16 +296,15 @@ class _IconBuffer(object):
             else:
                 pixbuf = handle.get_pixbuf()
                 pixbuf = self._get_insensitive_pixbuf(pixbuf, widget)
-
-                pixbuf_surface = hippo.cairo_surface_from_gdk_pixbuf(pixbuf)
-                context.set_source_surface(pixbuf_surface, 0, 0)
-                context.paint()
+                gdkcontext = gtk.gdk.CairoContext(context)
+                gdkcontext.set_source_pixbuf(pixbuf, 0, 0)
+                gdkcontext.paint()
         else:
             if not sensitive:
                 pixbuf = self._get_insensitive_pixbuf(pixbuf, widget)
-            pixbuf_surface = hippo.cairo_surface_from_gdk_pixbuf(pixbuf)
-            context.set_source_surface(pixbuf_surface, 0, 0)
-            context.paint()
+            gdkcontext = gtk.gdk.CairoContext(context)
+            gdkcontext.set_source_pixbuf(pixbuf, 0, 0)
+            gdkcontext.paint()
 
         if self.badge_name:
             context.restore()
