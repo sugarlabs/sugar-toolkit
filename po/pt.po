@@ -7,20 +7,20 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-09-28 06:08-0400\n"
-"PO-Revision-Date: 2010-01-25 05:20+0200\n"
-"Last-Translator: Chris <cjl@laptop.org>\n"
+"PO-Revision-Date: 2012-03-08 22:07+0200\n"
+"Last-Translator: Eduardo H. <hoboprimate@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.1\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: ../src/sugar/activity/activity.py:336
 #, python-format
 msgid "%s Activity"
-msgstr "Actividade %s"
+msgstr "Atividade %s"
 
 #: ../src/sugar/activity/activity.py:791
 msgid "Keep error"
@@ -49,7 +49,7 @@ msgstr "Guardar"
 
 #: ../src/sugar/activity/namingalert.py:283
 msgid "Untitled"
-msgstr "Sem título"
+msgstr "Sem Título"
 
 #: ../src/sugar/activity/namingalert.py:290
 msgid "Description:"
@@ -85,11 +85,11 @@ msgstr "Privado"
 
 #: ../src/sugar/activity/widgets.py:136
 msgid "My Neighborhood"
-msgstr "A minha vizinhança"
+msgstr "Minha Vizinhança"
 
 #: ../src/sugar/activity/widgets.py:349
 msgid "Activity"
-msgstr "Actividade"
+msgstr "Atividade"
 
 #: ../src/sugar/graphics/alert.py:287 ../src/sugar/graphics/alert.py:410
 msgid "Cancel"
