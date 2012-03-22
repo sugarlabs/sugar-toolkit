@@ -19,147 +19,155 @@ msgstr ""
 #: ../src/sugar/activity/activity.py:336
 #, python-format
 msgid "%s Activity"
-msgstr ""
+msgstr "%sسرگرمی"
 
 #: ../src/sugar/activity/activity.py:791
 msgid "Keep error"
-msgstr ""
+msgstr "غلطی رکھيں"
 
 #: ../src/sugar/activity/activity.py:792
 msgid "Keep error: all changes will be lost"
-msgstr ""
+msgstr "غلطی رکھيں: تمام تبديلياں ختم ہو سکتی ہیں"
 
 #: ../src/sugar/activity/activity.py:795
 msgid "Don't stop"
-msgstr ""
+msgstr "مت رکيں"
 
 #: ../src/sugar/activity/activity.py:798
 msgid "Stop anyway"
-msgstr ""
+msgstr "رک جائيں"
 
+# اس اندراج کو نام دیں
 #: ../src/sugar/activity/namingalert.py:82
 msgid "Name this entry"
-msgstr ""
+msgstr "اس اندراج کو نام دیں"
 
 #: ../src/sugar/activity/namingalert.py:87
 #: ../src/sugar/activity/widgets.py:169
 msgid "Keep"
-msgstr ""
+msgstr "رکھيں"
 
+# بلا عنوان
 #: ../src/sugar/activity/namingalert.py:283
 msgid "Untitled"
-msgstr ""
+msgstr "بلا عنوان"
 
+# وضاحت
 #: ../src/sugar/activity/namingalert.py:290
 msgid "Description:"
-msgstr ""
+msgstr "وضاحت"
 
+# ٹیگ:
 #: ../src/sugar/activity/namingalert.py:314
 msgid "Tags:"
-msgstr ""
+msgstr "ٹیگ:"
 
 #: ../src/sugar/activity/widgets.py:83
 msgid "Stop"
-msgstr ""
+msgstr "روکيں"
 
 #: ../src/sugar/activity/widgets.py:95
 msgid "Undo"
-msgstr ""
+msgstr "کلعدم کريں"
 
 #: ../src/sugar/activity/widgets.py:103
 msgid "Redo"
-msgstr ""
+msgstr "دوبارہ کريں"
 
 #: ../src/sugar/activity/widgets.py:110
 msgid "Copy"
-msgstr ""
+msgstr "کاپی"
 
 #: ../src/sugar/activity/widgets.py:118
 msgid "Paste"
-msgstr ""
+msgstr "جوڑيں"
 
 #: ../src/sugar/activity/widgets.py:129
 msgid "Private"
-msgstr ""
+msgstr "پرايويٹ"
 
 #: ../src/sugar/activity/widgets.py:136
 msgid "My Neighborhood"
-msgstr ""
+msgstr "ميرا گردونواح"
 
 #: ../src/sugar/activity/widgets.py:349
 msgid "Activity"
-msgstr ""
+msgstr "سرگرمی"
 
 #: ../src/sugar/graphics/alert.py:287 ../src/sugar/graphics/alert.py:410
 msgid "Cancel"
-msgstr ""
+msgstr "منسوخ کريں"
 
 #: ../src/sugar/graphics/alert.py:291 ../src/sugar/graphics/alert.py:336
 #: ../src/sugar/graphics/alert.py:469
 msgid "Ok"
-msgstr ""
+msgstr "ٹھيک ہے"
 
 #: ../src/sugar/graphics/alert.py:420
 msgid "Continue"
-msgstr ""
+msgstr "جاری رکھيں"
 
+# رنگ منتخب کریں
 #: ../src/sugar/graphics/colorbutton.py:52
 msgid "Choose a color"
-msgstr ""
+msgstr "رنگ منتخب کریں"
 
+# لال
 #: ../src/sugar/graphics/colorbutton.py:272
 msgid "Red"
-msgstr ""
+msgstr "لال"
 
+# سبز
 #: ../src/sugar/graphics/colorbutton.py:274
 msgid "Green"
-msgstr ""
+msgstr "سبز"
 
+# نیلا
 #: ../src/sugar/graphics/colorbutton.py:276
 msgid "Blue"
-msgstr ""
+msgstr "نیلا"
 
 #: ../src/sugar/util.py:218
 msgid " and "
-msgstr ""
+msgstr " اور "
 
 #: ../src/sugar/util.py:219
 msgid ", "
-msgstr ""
+msgstr "، "
 
 #. TRANS: Indicating something that just happened, eg. "just now", "moments ago"
 #: ../src/sugar/util.py:222
 msgid "Seconds ago"
-msgstr ""
+msgstr "سيکنڈ پہلے"
 
 #. TRANS: Indicating time passed, eg. "[10 day, 5 hours] ago",
 #. "[2 minutes] in the past", or "[3 years, 1 month] earlier"
 #: ../src/sugar/util.py:226
 #, python-format
 msgid "%s ago"
-msgstr ""
+msgstr "%s پہلے"
 
 #. TRANS: Relative dates (eg. 1 month and 5 days).
 #: ../src/sugar/util.py:241
 #, python-format
 msgid "%d year"
 msgid_plural "%d years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%dسال"
+msgstr[1] "%dسال"
 
 #: ../src/sugar/util.py:242
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%dمہينہ"
+msgstr[1] "%d مہينے"
 
 #: ../src/sugar/util.py:243
 #, python-format
 msgid "%d week"
 msgid_plural "%d weeks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ہفتہ"
+msgstr[1] "%d ہفتے"
 
 #: ../src/sugar/util.py:244
 #, python-format
@@ -172,36 +180,42 @@ msgstr[1] ""
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d گھنٹہ"
+msgstr[1] "%d گھنٹے"
 
 #: ../src/sugar/util.py:246
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d منٹ"
+msgstr[1] "%d منٹ"
 
+# خالی
 #: ../src/sugar/util.py:339
 msgid "Empty"
-msgstr ""
+msgstr "خالی"
 
+# %d B
 #: ../src/sugar/util.py:341
 #, python-format
 msgid "%d B"
-msgstr ""
+msgstr "%d B"
 
+# %d KB
 #: ../src/sugar/util.py:343
 #, python-format
 msgid "%d KB"
-msgstr ""
+msgstr "%d KB"
 
+# %d MB
 #: ../src/sugar/util.py:345
 #, python-format
 msgid "%d MB"
-msgstr ""
+msgstr "%d MB"
 
+# %d GB
+#
 #: ../src/sugar/util.py:347
 #, python-format
 msgid "%d GB"
-msgstr ""
+msgstr "%d GB"
