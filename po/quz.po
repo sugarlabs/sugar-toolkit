@@ -1,0 +1,253 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-28 06:08-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
+
+#  "Actividad %s"
+#: ../src/sugar/activity/activity.py:336
+#, python-format
+msgid "%s Activity"
+msgstr "%s Ruwana"
+
+#  "Error al guardar"
+#: ../src/sugar/activity/activity.py:791
+msgid "Keep error"
+msgstr "Allchakuchkaptin pantarun"
+
+#  "Error al guardar: todos los cambios se perderán"
+#: ../src/sugar/activity/activity.py:792
+msgid "Keep error: all changes will be lost"
+msgstr "Allchakuchkaptin pantarun: llapan huknirasqaqa chinkarinqan"
+
+#  "No detener"
+#: ../src/sugar/activity/activity.py:795
+msgid "Don't stop"
+msgstr "Ama sayachiychu"
+
+#  "Detener de todas formas"
+#: ../src/sugar/activity/activity.py:798
+msgid "Stop anyway"
+msgstr "Sayachinaykipunim"
+
+#  "Nombre esta entrada"
+#: ../src/sugar/activity/namingalert.py:82
+msgid "Name this entry"
+msgstr "Haykunata sutichay"
+
+#  "Guardar copia"
+#: ../src/sugar/activity/namingalert.py:87
+#: ../src/sugar/activity/widgets.py:169
+msgid "Keep"
+msgstr "Kikinchata waqaychay"
+
+#  "Sin título"
+#: ../src/sugar/activity/namingalert.py:283
+msgid "Untitled"
+msgstr "Mana sutinchayniyuq"
+
+#  "Descripción:"
+#: ../src/sugar/activity/namingalert.py:290
+msgid "Description:"
+msgstr "Riqsichinapaq:"
+
+#  "Etiquetas:"
+#: ../src/sugar/activity/namingalert.py:314
+msgid "Tags:"
+msgstr "Sutichaq:"
+
+#  "Parar"
+#: ../src/sugar/activity/widgets.py:83
+msgid "Stop"
+msgstr "Sayachiy"
+
+#  "Deshacer"
+#: ../src/sugar/activity/widgets.py:95
+msgid "Undo"
+msgstr "Pichay"
+
+#  "Rehacer"
+#: ../src/sugar/activity/widgets.py:103
+msgid "Redo"
+msgstr "Kutipay"
+
+#  "Copiar"
+#: ../src/sugar/activity/widgets.py:110
+msgid "Copy"
+msgstr "Kikinchay"
+
+#  "Pegar"
+#: ../src/sugar/activity/widgets.py:118
+msgid "Paste"
+msgstr "K'askachiy"
+
+#  "Privado"
+#: ../src/sugar/activity/widgets.py:129
+msgid "Private"
+msgstr "Pakasqa"
+
+#  "Mi Vecindario"
+#: ../src/sugar/activity/widgets.py:136
+msgid "My Neighborhood"
+msgstr "Aylluy"
+
+#  "Actividad"
+#: ../src/sugar/activity/widgets.py:349
+msgid "Activity"
+msgstr "Ruwana"
+
+#  "Cancelar"
+#: ../src/sugar/graphics/alert.py:287 ../src/sugar/graphics/alert.py:410
+msgid "Cancel"
+msgstr "Chinkachiy"
+
+#  "Aceptar"
+#: ../src/sugar/graphics/alert.py:291 ../src/sugar/graphics/alert.py:336
+#: ../src/sugar/graphics/alert.py:469
+msgid "Ok"
+msgstr "Chaskiy"
+
+#  "Continuar"
+#: ../src/sugar/graphics/alert.py:420
+msgid "Continue"
+msgstr "Purillay"
+
+#  "Escoja un color"
+#: ../src/sugar/graphics/colorbutton.py:52
+msgid "Choose a color"
+msgstr "Huk llinp'ita akllay"
+
+#  "Rojo"
+#: ../src/sugar/graphics/colorbutton.py:272
+msgid "Red"
+msgstr "Puka"
+
+#  "Verde"
+#: ../src/sugar/graphics/colorbutton.py:274
+msgid "Green"
+msgstr "Q´umer"
+
+#  "Azul"
+#: ../src/sugar/graphics/colorbutton.py:276
+msgid "Blue"
+msgstr "Anqas"
+
+#  " y "
+#: ../src/sugar/util.py:218
+msgid " and "
+msgstr " hinallataq "
+
+#  ", "
+#: ../src/sugar/util.py:219
+msgid ", "
+msgstr ", "
+
+#  "Segundos atrás"
+#. TRANS: Indicating something that just happened, eg. "just now", "moments ago"
+#: ../src/sugar/util.py:222
+msgid "Seconds ago"
+msgstr "As tumpalla"
+
+#  "%s atrás"
+#. TRANS: Indicating time passed, eg. "[10 day, 5 hours] ago",
+#. "[2 minutes] in the past", or "[3 years, 1 month] earlier"
+#: ../src/sugar/util.py:226
+#, python-format
+msgid "%s ago"
+msgstr "%s qhipa"
+
+#  "%d año"
+#  "%d años"
+#. TRANS: Relative dates (eg. 1 month and 5 days).
+#: ../src/sugar/util.py:241
+#, python-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "%d wata"
+msgstr[1] "%d watakuna"
+
+#  "%d mes"
+#  "%d meses"
+#: ../src/sugar/util.py:242
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d killa"
+msgstr[1] "%d killakuna"
+
+#  "%d semana"
+#  "%d semanas"
+#: ../src/sugar/util.py:243
+#, python-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "%d qanchischaw"
+msgstr[1] "%d qanchischawkuna"
+
+#  "%d día"
+#  "%d días"
+#: ../src/sugar/util.py:244
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d p'unchaw"
+msgstr[1] "%d p'unchawkuna"
+
+#  "%d hora"
+#  "%d horas"
+#: ../src/sugar/util.py:245
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d pacha"
+msgstr[1] "%d pachakuna"
+
+#  "%d minuto"
+#  "%d minutos"
+#: ../src/sugar/util.py:246
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d chinini"
+msgstr[1] "%d chininikuna"
+
+#  "Vacio"
+#: ../src/sugar/util.py:339
+msgid "Empty"
+msgstr "Ch´usaq"
+
+#  "%d B"
+#: ../src/sugar/util.py:341
+#, python-format
+msgid "%d B"
+msgstr "%d B"
+
+#  "%d KB"
+#: ../src/sugar/util.py:343
+#, python-format
+msgid "%d KB"
+msgstr "%d KB"
+
+#  "%d MB"
+#: ../src/sugar/util.py:345
+#, python-format
+msgid "%d MB"
+msgstr "%d MB"
+
+#  "%d GB"
+#: ../src/sugar/util.py:347
+#, python-format
+msgid "%d GB"
+msgstr "%d GB"
