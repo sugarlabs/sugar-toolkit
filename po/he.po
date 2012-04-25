@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-28 06:08-0400\n"
+"POT-Creation-Date: 2012-04-25 00:34-0400\n"
 "PO-Revision-Date: 2011-10-08 05:25+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,106 +17,94 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.0.5\n"
 
-#: ../src/sugar/activity/activity.py:336
+#: ../src/sugar/activity/activity.py:373
 #, python-format
 #, fuzzy
 msgid "%s Activity"
 msgstr "פעילות %s"
 
-#: ../src/sugar/activity/activity.py:791
+#: ../src/sugar/activity/activity.py:834
 #, fuzzy
 msgid "Keep error"
 msgstr "אירעה שגיאה בשמירה"
 
-#: ../src/sugar/activity/activity.py:792
+#: ../src/sugar/activity/activity.py:835
 #, fuzzy
 msgid "Keep error: all changes will be lost"
 msgstr "אירעה שגיאה בשמירה: כל המידע ילך לאיבוד"
 
-#: ../src/sugar/activity/activity.py:795
+#: ../src/sugar/activity/activity.py:838
 #, fuzzy
 msgid "Don't stop"
 msgstr "אל תעצור"
 
-#: ../src/sugar/activity/activity.py:798
+#: ../src/sugar/activity/activity.py:841
 #, fuzzy
 msgid "Stop anyway"
 msgstr "עצור בכל זאת"
 
-#: ../src/sugar/activity/namingalert.py:82
-msgid "Name this entry"
-msgstr "תן שם לכניסה"
-
-#: ../src/sugar/activity/namingalert.py:87
-#: ../src/sugar/activity/widgets.py:169
-#, fuzzy
-msgid "Keep"
-msgstr "שמור"
-
-#: ../src/sugar/activity/namingalert.py:283
-msgid "Untitled"
-msgstr "ללא שם"
-
-#: ../src/sugar/activity/namingalert.py:290
-msgid "Description:"
-msgstr "תאור:"
-
-#: ../src/sugar/activity/namingalert.py:314
-msgid "Tags:"
-msgstr "תגיות:"
-
-#: ../src/sugar/activity/widgets.py:83
+#: ../src/sugar/activity/widgets.py:84
 #, fuzzy
 msgid "Stop"
 msgstr "עצור"
 
-#: ../src/sugar/activity/widgets.py:95
+#: ../src/sugar/activity/widgets.py:96
 #, fuzzy
 msgid "Undo"
 msgstr "בטל"
 
-#: ../src/sugar/activity/widgets.py:103
+#: ../src/sugar/activity/widgets.py:104
 #, fuzzy
 msgid "Redo"
 msgstr "שחזר"
 
-#: ../src/sugar/activity/widgets.py:110
+#: ../src/sugar/activity/widgets.py:111
 #, fuzzy
 msgid "Copy"
 msgstr "העתק"
 
-#: ../src/sugar/activity/widgets.py:118
+#: ../src/sugar/activity/widgets.py:119
 #, fuzzy
 msgid "Paste"
 msgstr "הדבק"
 
-#: ../src/sugar/activity/widgets.py:129
+#: ../src/sugar/activity/widgets.py:130
 #, fuzzy
 msgid "Private"
 msgstr "פרטי"
 
-#: ../src/sugar/activity/widgets.py:136
+#: ../src/sugar/activity/widgets.py:137
 #, fuzzy
 msgid "My Neighborhood"
 msgstr "הסביבה שלי"
 
-#: ../src/sugar/activity/widgets.py:349
+#: ../src/sugar/activity/widgets.py:173
+#, fuzzy
+msgid "Keep"
+msgstr "שמור"
+
+#: ../src/sugar/activity/widgets.py:246
+#, fuzzy
+msgid "Description"
+msgstr "תאור:"
+
+#: ../src/sugar/activity/widgets.py:429
 #, fuzzy
 msgid "Activity"
 msgstr "פעילות"
 
-#: ../src/sugar/graphics/alert.py:287 ../src/sugar/graphics/alert.py:410
+#: ../src/sugar/graphics/alert.py:287 ../src/sugar/graphics/alert.py:428
 #, fuzzy
 msgid "Cancel"
 msgstr "ביטול"
 
-#: ../src/sugar/graphics/alert.py:291 ../src/sugar/graphics/alert.py:336
-#: ../src/sugar/graphics/alert.py:469
+#: ../src/sugar/graphics/alert.py:291 ../src/sugar/graphics/alert.py:337
+#: ../src/sugar/graphics/alert.py:478
 #, fuzzy
 msgid "Ok"
 msgstr "אישור"
 
-#: ../src/sugar/graphics/alert.py:420
+#: ../src/sugar/graphics/alert.py:433
 #, fuzzy
 msgid "Continue"
 msgstr "המשך"
@@ -137,17 +125,17 @@ msgstr "ירוק"
 msgid "Blue"
 msgstr "כחול"
 
-#: ../src/sugar/util.py:218
+#: ../src/sugar/util.py:217
 msgid " and "
 msgstr " וגם "
 
-#: ../src/sugar/util.py:219
+#: ../src/sugar/util.py:218
 msgid ", "
 msgstr ",_"
 
 # TRANS: Indicating something that just happened, eg. "just now", "moments ago"
 #. TRANS: Indicating something that just happened, eg. "just now", "moments ago"
-#: ../src/sugar/util.py:222
+#: ../src/sugar/util.py:221
 #, fuzzy
 msgid "Seconds ago"
 msgstr "לפני שניות אחדות"
@@ -156,7 +144,7 @@ msgstr "לפני שניות אחדות"
 # "[2 minutes] in the past", or "[3 years, 1 month] earlier"
 #. TRANS: Indicating time passed, eg. "[10 day, 5 hours] ago",
 #. "[2 minutes] in the past", or "[3 years, 1 month] earlier"
-#: ../src/sugar/util.py:226
+#: ../src/sugar/util.py:225
 #, python-format
 #, fuzzy
 msgid "%s ago"
@@ -164,7 +152,7 @@ msgstr "לפני %s"
 
 # יתכן שצורת יחיד צריכה להיות "שנה אחת"
 #. TRANS: Relative dates (eg. 1 month and 5 days).
-#: ../src/sugar/util.py:241
+#: ../src/sugar/util.py:240
 #, python-format
 #, fuzzy
 msgid "%d year"
@@ -173,7 +161,7 @@ msgstr[0] "%d שנה"
 msgstr[1] "%d שנים"
 
 # יתכן שצורת יחיד צריכה להיות "חודש אחד"
-#: ../src/sugar/util.py:242
+#: ../src/sugar/util.py:241
 #, python-format
 #, fuzzy
 msgid "%d month"
@@ -182,7 +170,7 @@ msgstr[0] "%d חודש"
 msgstr[1] "%d חודשים"
 
 # יתכן שצורת יחיד צריכה להיות "שבוע אחד"
-#: ../src/sugar/util.py:243
+#: ../src/sugar/util.py:242
 #, python-format
 #, fuzzy
 msgid "%d week"
@@ -191,7 +179,7 @@ msgstr[0] "%d שבוע"
 msgstr[1] "%d שבועות"
 
 # יתכן שצורת יחיד צריכה להיות "יום אחד"
-#: ../src/sugar/util.py:244
+#: ../src/sugar/util.py:243
 #, python-format
 #, fuzzy
 msgid "%d day"
@@ -200,7 +188,7 @@ msgstr[0] "%d יום"
 msgstr[1] "%d ימים"
 
 # יתכן שצורת יחיד צריכה להיות "שעה אחת"
-#: ../src/sugar/util.py:245
+#: ../src/sugar/util.py:244
 #, python-format
 #, fuzzy
 msgid "%d hour"
@@ -209,7 +197,7 @@ msgstr[0] "%d שעה"
 msgstr[1] "%d שעות"
 
 # יתכן שצורת יחיד צריכה להיות "דקה אחת"
-#: ../src/sugar/util.py:246
+#: ../src/sugar/util.py:245
 #, python-format
 #, fuzzy
 msgid "%d minute"
@@ -217,26 +205,35 @@ msgid_plural "%d minutes"
 msgstr[0] "%d דקה"
 msgstr[1] "%d דקות"
 
-#: ../src/sugar/util.py:339
+#: ../src/sugar/util.py:346
 msgid "Empty"
 msgstr ""
 
-#: ../src/sugar/util.py:341
+#: ../src/sugar/util.py:348
 #, python-format
 msgid "%d B"
 msgstr ""
 
-#: ../src/sugar/util.py:343
+#: ../src/sugar/util.py:350
 #, python-format
 msgid "%d KB"
 msgstr ""
 
-#: ../src/sugar/util.py:345
+#: ../src/sugar/util.py:352
 #, python-format
 msgid "%d MB"
 msgstr ""
 
-#: ../src/sugar/util.py:347
+#: ../src/sugar/util.py:354
 #, python-format
 msgid "%d GB"
 msgstr ""
+
+#~ msgid "Name this entry"
+#~ msgstr "תן שם לכניסה"
+
+#~ msgid "Untitled"
+#~ msgstr "ללא שם"
+
+#~ msgid "Tags:"
+#~ msgstr "תגיות:"

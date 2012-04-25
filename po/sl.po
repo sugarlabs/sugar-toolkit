@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-28 06:08-0400\n"
+"POT-Creation-Date: 2012-04-25 00:34-0400\n"
 "PO-Revision-Date: 2011-12-22 01:31+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,90 +18,78 @@ msgstr ""
 "n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.0.5\n"
 
-#: ../src/sugar/activity/activity.py:336
+#: ../src/sugar/activity/activity.py:373
 #, python-format
 msgid "%s Activity"
 msgstr "%s aktivnost"
 
-#: ../src/sugar/activity/activity.py:791
+#: ../src/sugar/activity/activity.py:834
 msgid "Keep error"
 msgstr "Napaka pri shranjevanju"
 
-#: ../src/sugar/activity/activity.py:792
+#: ../src/sugar/activity/activity.py:835
 msgid "Keep error: all changes will be lost"
 msgstr "Napaka pri shranjevanju: vse spremembe bodo izgubljene"
 
-#: ../src/sugar/activity/activity.py:795
+#: ../src/sugar/activity/activity.py:838
 msgid "Don't stop"
 msgstr "Ne ustavi"
 
-#: ../src/sugar/activity/activity.py:798
+#: ../src/sugar/activity/activity.py:841
 msgid "Stop anyway"
 msgstr "Vseeno ustavi"
 
-#: ../src/sugar/activity/namingalert.py:82
-msgid "Name this entry"
-msgstr "Poimenuj ta vnos"
-
-#: ../src/sugar/activity/namingalert.py:87
-#: ../src/sugar/activity/widgets.py:169
-msgid "Keep"
-msgstr "Obdrži"
-
-#: ../src/sugar/activity/namingalert.py:283
-msgid "Untitled"
-msgstr "Neimenovan"
-
-#: ../src/sugar/activity/namingalert.py:290
-msgid "Description:"
-msgstr "Opis:"
-
-#: ../src/sugar/activity/namingalert.py:314
-msgid "Tags:"
-msgstr "Oznake:"
-
-#: ../src/sugar/activity/widgets.py:83
+#: ../src/sugar/activity/widgets.py:84
 msgid "Stop"
 msgstr "Ustavi"
 
-#: ../src/sugar/activity/widgets.py:95
+#: ../src/sugar/activity/widgets.py:96
 msgid "Undo"
 msgstr "Razveljavi"
 
-#: ../src/sugar/activity/widgets.py:103
+#: ../src/sugar/activity/widgets.py:104
 msgid "Redo"
 msgstr "Ponovi"
 
-#: ../src/sugar/activity/widgets.py:110
+#: ../src/sugar/activity/widgets.py:111
 msgid "Copy"
 msgstr "Kopiraj"
 
-#: ../src/sugar/activity/widgets.py:118
+#: ../src/sugar/activity/widgets.py:119
 msgid "Paste"
 msgstr "Prilepi"
 
-#: ../src/sugar/activity/widgets.py:129
+#: ../src/sugar/activity/widgets.py:130
 msgid "Private"
 msgstr "Zasebno"
 
-#: ../src/sugar/activity/widgets.py:136
+#: ../src/sugar/activity/widgets.py:137
 msgid "My Neighborhood"
 msgstr "Moja soseščina"
 
-#: ../src/sugar/activity/widgets.py:349
+#: ../src/sugar/activity/widgets.py:173
+msgid "Keep"
+msgstr "Obdrži"
+
+#: ../src/sugar/activity/widgets.py:246
+#, fuzzy
+msgid "Description"
+msgstr "Opis:"
+
+#: ../src/sugar/activity/widgets.py:429
 msgid "Activity"
 msgstr "Aktivnost"
 
-#: ../src/sugar/graphics/alert.py:287 ../src/sugar/graphics/alert.py:410
+#: ../src/sugar/graphics/alert.py:287 ../src/sugar/graphics/alert.py:428
 msgid "Cancel"
 msgstr "Prekliči"
 
-#: ../src/sugar/graphics/alert.py:291 ../src/sugar/graphics/alert.py:336
-#: ../src/sugar/graphics/alert.py:469
+#: ../src/sugar/graphics/alert.py:291 ../src/sugar/graphics/alert.py:337
+#: ../src/sugar/graphics/alert.py:478
 msgid "Ok"
 msgstr "V redu"
 
-#: ../src/sugar/graphics/alert.py:420
+#: ../src/sugar/graphics/alert.py:433
 msgid "Continue"
 msgstr "Nadaljuj"
 
@@ -121,17 +109,17 @@ msgstr "Zelena"
 msgid "Blue"
 msgstr "Modra"
 
-#: ../src/sugar/util.py:218
+#: ../src/sugar/util.py:217
 msgid " and "
 msgstr " in "
 
-#: ../src/sugar/util.py:219
+#: ../src/sugar/util.py:218
 msgid ", "
 msgstr ", "
 
 # TRANS: Indicating something that just happened, eg. "just now", "moments ago"
 #. TRANS: Indicating something that just happened, eg. "just now", "moments ago"
-#: ../src/sugar/util.py:222
+#: ../src/sugar/util.py:221
 msgid "Seconds ago"
 msgstr "Pred nekaj sekundami"
 
@@ -139,14 +127,14 @@ msgstr "Pred nekaj sekundami"
 # "[2 minutes] in the past", or "[3 years, 1 month] earlier"
 #. TRANS: Indicating time passed, eg. "[10 day, 5 hours] ago",
 #. "[2 minutes] in the past", or "[3 years, 1 month] earlier"
-#: ../src/sugar/util.py:226
+#: ../src/sugar/util.py:225
 #, python-format
 msgid "%s ago"
 msgstr "%s nazaj"
 
 # TRANS: Relative dates (eg. 1 month and 5 days).
 #. TRANS: Relative dates (eg. 1 month and 5 days).
-#: ../src/sugar/util.py:241
+#: ../src/sugar/util.py:240
 #, python-format
 msgid "%d year"
 msgid_plural "%d years"
@@ -155,7 +143,7 @@ msgstr[1] "%d leti"
 msgstr[2] "%d let"
 msgstr[3] ""
 
-#: ../src/sugar/util.py:242
+#: ../src/sugar/util.py:241
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
@@ -164,7 +152,7 @@ msgstr[1] "%d meseca"
 msgstr[2] "%d mesecev"
 msgstr[3] ""
 
-#: ../src/sugar/util.py:243
+#: ../src/sugar/util.py:242
 #, python-format
 msgid "%d week"
 msgid_plural "%d weeks"
@@ -173,7 +161,7 @@ msgstr[1] "%d tedna"
 msgstr[2] "%d tedni"
 msgstr[3] "%d tednov"
 
-#: ../src/sugar/util.py:244
+#: ../src/sugar/util.py:243
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
@@ -182,7 +170,7 @@ msgstr[1] "%d dni"
 msgstr[2] ""
 msgstr[3] ""
 
-#: ../src/sugar/util.py:245
+#: ../src/sugar/util.py:244
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
@@ -191,7 +179,7 @@ msgstr[1] "%d uri"
 msgstr[2] "%d ure"
 msgstr[3] "%d ur"
 
-#: ../src/sugar/util.py:246
+#: ../src/sugar/util.py:245
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
@@ -200,26 +188,35 @@ msgstr[1] "%d minuti"
 msgstr[2] "%d minute"
 msgstr[3] "%d minut"
 
-#: ../src/sugar/util.py:339
+#: ../src/sugar/util.py:346
 msgid "Empty"
 msgstr "Prazno"
 
-#: ../src/sugar/util.py:341
+#: ../src/sugar/util.py:348
 #, python-format
 msgid "%d B"
 msgstr "%d B"
 
-#: ../src/sugar/util.py:343
+#: ../src/sugar/util.py:350
 #, python-format
 msgid "%d KB"
 msgstr "%d KB"
 
-#: ../src/sugar/util.py:345
+#: ../src/sugar/util.py:352
 #, python-format
 msgid "%d MB"
 msgstr "%d MB"
 
-#: ../src/sugar/util.py:347
+#: ../src/sugar/util.py:354
 #, python-format
 msgid "%d GB"
 msgstr "%d GB"
+
+#~ msgid "Name this entry"
+#~ msgstr "Poimenuj ta vnos"
+
+#~ msgid "Untitled"
+#~ msgstr "Neimenovan"
+
+#~ msgid "Tags:"
+#~ msgstr "Oznake:"
