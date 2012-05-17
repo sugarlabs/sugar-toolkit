@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-04-25 00:34-0400\n"
-"PO-Revision-Date: 2011-05-18 02:42+0200\n"
-"Last-Translator: Maizuruddin <maizu@tpm.com.my>\n"
+"PO-Revision-Date: 2012-05-17 14:40+0200\n"
+"Last-Translator: Mohd Lazim bin Abdul Raoh <decfiv@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ms\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.0.1\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: ../src/sugar/activity/activity.py:373
 #, python-format
@@ -72,7 +72,6 @@ msgid "Keep"
 msgstr "Simpan"
 
 #: ../src/sugar/activity/widgets.py:246
-#, fuzzy
 msgid "Description"
 msgstr "Penerangan:"
 
