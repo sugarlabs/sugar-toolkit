@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-04-25 00:34-0400\n"
-"PO-Revision-Date: 2011-05-31 17:19+0200\n"
-"Last-Translator: Chris <cjl@laptop.org>\n"
+"PO-Revision-Date: 2012-05-21 15:57+0200\n"
+"Last-Translator: Jimmy <jimmy@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: rw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1) ;\n"
-"X-Generator: Pootle 2.0.1\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #: ../src/sugar/activity/activity.py:373
 #, python-format
@@ -71,9 +71,8 @@ msgid "Keep"
 msgstr "Gumana/Bika"
 
 #: ../src/sugar/activity/widgets.py:246
-#, fuzzy
 msgid "Description"
-msgstr "Igisobanuro:"
+msgstr "Igisobanuro"
 
 #: ../src/sugar/activity/widgets.py:429
 msgid "Activity"
