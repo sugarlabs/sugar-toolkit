@@ -254,12 +254,13 @@ class DescriptionItem(gtk.ToolItem):
         self._text_view = gtk.TextView()
         self._text_view.set_left_margin(style.DEFAULT_PADDING)
         self._text_view.set_right_margin(style.DEFAULT_PADDING)
+        self._text_view.set_wrap_mode(gtk.WRAP_WORD_CHAR)
         text_buffer = gtk.TextBuffer()
         if 'description' in activity.metadata:
             text_buffer.set_text(activity.metadata['description'])
         self._text_view.set_buffer(text_buffer)
         self._text_view.connect('focus-out-event',
-                               self.__description_changed_cb, activity)
+                                self.__description_changed_cb, activity)
         sw.add(self._text_view)
         description_box.pack_start(sw, False, True, 0)
         self._palette.set_content(description_box)
