@@ -70,7 +70,6 @@ from telepathy.interfaces import CHANNEL, \
 from telepathy.constants import CONNECTION_HANDLE_TYPE_CONTACT
 from telepathy.constants import CONNECTION_HANDLE_TYPE_ROOM
 
-import sugar
 from sugar import util
 from sugar.presence import presenceservice
 from sugar.activity import i18n
@@ -261,12 +260,6 @@ class Activity(Window, gtk.Container):
         """
 
         # Stuff that needs to be done early
-
-        locale_path = i18n.get_locale_path(self.get_bundle_id())
-        gettext.bindtextdomain(self.get_bundle_id(), locale_path)
-        gettext.bindtextdomain('sugar-toolkit', sugar.locale_path)
-        gettext.textdomain(self.get_bundle_id())
-
         icons_path = os.path.join(get_bundle_path(), 'icons')
         gtk.icon_theme_get_default().append_search_path(icons_path)
 
