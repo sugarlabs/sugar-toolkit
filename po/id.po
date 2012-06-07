@@ -2,185 +2,202 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-20 00:31-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-09-23 11:57-0400\n"
+"PO-Revision-Date: 2012-06-04 07:04+0200\n"
+"Last-Translator: andika <andika@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.1.1rc4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.5\n"
 
-#: ../src/sugar/activity/activity.py:123
-msgid "Share with:"
-msgstr ""
-
-#: ../src/sugar/activity/activity.py:125
-msgid "Private"
-msgstr ""
-
-#: ../src/sugar/activity/activity.py:126
-msgid "My Neighborhood"
-msgstr ""
-
-#: ../src/sugar/activity/activity.py:133
-#: ../src/sugar/activity/namingalert.py:65
-msgid "Keep"
-msgstr ""
-
-#: ../src/sugar/activity/activity.py:144
-msgid "Stop"
-msgstr ""
-
-#: ../src/sugar/activity/activity.py:258
-msgid "Undo"
-msgstr ""
-
-#: ../src/sugar/activity/activity.py:263
-msgid "Redo"
-msgstr ""
-
-#: ../src/sugar/activity/activity.py:273
-msgid "Copy"
-msgstr ""
-
-#: ../src/sugar/activity/activity.py:278
-msgid "Paste"
-msgstr ""
-
-#: ../src/sugar/activity/activity.py:304
-msgid "Activity"
-msgstr ""
-
-#: ../src/sugar/activity/activity.py:542
+#: ../src/sugar/activity/activity.py:352
 #, python-format
 msgid "%s Activity"
-msgstr ""
+msgstr "Kegiatan %s"
 
-#: ../src/sugar/activity/activity.py:910
+#: ../src/sugar/activity/activity.py:813
 msgid "Keep error"
-msgstr ""
+msgstr "Ada kesalahan saat menyimpan"
 
-#: ../src/sugar/activity/activity.py:911
+#: ../src/sugar/activity/activity.py:814
 msgid "Keep error: all changes will be lost"
 msgstr ""
+"Ada kesalahan saat menyimpan: Semua yang tadi diubah tidak akan tersimpan"
 
-#: ../src/sugar/activity/activity.py:914
+#: ../src/sugar/activity/activity.py:817
 msgid "Don't stop"
-msgstr ""
+msgstr "Jangan berhenti"
 
-#: ../src/sugar/activity/activity.py:917
+#: ../src/sugar/activity/activity.py:820
 msgid "Stop anyway"
-msgstr ""
+msgstr "Hentikan saja"
 
-#: ../src/sugar/activity/namingalert.py:60
+#: ../src/sugar/activity/namingalert.py:82
 msgid "Name this entry"
-msgstr ""
+msgstr "Beri nama"
 
-#: ../src/sugar/activity/namingalert.py:248
+#: ../src/sugar/activity/namingalert.py:87
+#: ../src/sugar/activity/widgets.py:172
+msgid "Keep"
+msgstr "Simpan"
+
+#: ../src/sugar/activity/namingalert.py:282
 msgid "Untitled"
-msgstr ""
+msgstr "Tak berjudul"
 
-#: ../src/sugar/activity/namingalert.py:255
+#: ../src/sugar/activity/namingalert.py:289
 msgid "Description:"
-msgstr ""
+msgstr "Keterangan:"
 
-#: ../src/sugar/activity/namingalert.py:279
+#: ../src/sugar/activity/namingalert.py:313
 msgid "Tags:"
-msgstr ""
+msgstr "Penanda:"
 
-#: ../src/sugar/graphics/alert.py:288 ../src/sugar/graphics/alert.py:367
+#: ../src/sugar/activity/widgets.py:83
+msgid "Stop"
+msgstr "Berhenti"
+
+#: ../src/sugar/activity/widgets.py:95
+msgid "Undo"
+msgstr "Batalkan"
+
+#: ../src/sugar/activity/widgets.py:103
+msgid "Redo"
+msgstr "Ulangi"
+
+#: ../src/sugar/activity/widgets.py:110
+msgid "Copy"
+msgstr "Salin"
+
+#: ../src/sugar/activity/widgets.py:118
+msgid "Paste"
+msgstr "Tempel"
+
+#: ../src/sugar/activity/widgets.py:129
+msgid "Private"
+msgstr "Pribadi"
+
+#: ../src/sugar/activity/widgets.py:136
+msgid "My Neighborhood"
+msgstr "Lingkungan Saya"
+
+#: ../src/sugar/activity/widgets.py:358
+msgid "Activity"
+msgstr "Kegiatan"
+
+#: ../src/sugar/graphics/alert.py:287 ../src/sugar/graphics/alert.py:428
 msgid "Cancel"
-msgstr ""
+msgstr "Batalkan"
 
-#: ../src/sugar/graphics/alert.py:292 ../src/sugar/graphics/alert.py:426
+#: ../src/sugar/graphics/alert.py:291 ../src/sugar/graphics/alert.py:337
+#: ../src/sugar/graphics/alert.py:478
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
-#: ../src/sugar/graphics/alert.py:377
+#: ../src/sugar/graphics/alert.py:433
 msgid "Continue"
-msgstr ""
+msgstr "Lanjutkan"
 
-#: ../src/sugar/graphics/colorbutton.py:49
+#: ../src/sugar/graphics/colorbutton.py:52
 msgid "Choose a color"
-msgstr ""
+msgstr "Pilih warna"
 
-#: ../src/sugar/graphics/colorbutton.py:262
+#: ../src/sugar/graphics/colorbutton.py:272
 msgid "Red"
-msgstr ""
+msgstr "Merah"
 
-#: ../src/sugar/graphics/colorbutton.py:264
+#: ../src/sugar/graphics/colorbutton.py:274
 msgid "Green"
-msgstr ""
+msgstr "Hijau"
 
-#: ../src/sugar/graphics/colorbutton.py:266
+#: ../src/sugar/graphics/colorbutton.py:276
 msgid "Blue"
-msgstr ""
+msgstr "Biru"
 
-#: ../src/sugar/util.py:194
+#: ../src/sugar/util.py:217
 msgid " and "
-msgstr ""
+msgstr " dan "
 
-#: ../src/sugar/util.py:195
+#: ../src/sugar/util.py:218
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #. TRANS: Indicating something that just happened, eg. "just now", "moments ago"
-#: ../src/sugar/util.py:198
+#: ../src/sugar/util.py:221
 msgid "Seconds ago"
-msgstr ""
+msgstr "Barusan saja"
 
 #. TRANS: Indicating time passed, eg. "[10 day, 5 hours] ago",
 #. "[2 minutes] in the past", or "[3 years, 1 month] earlier"
-#: ../src/sugar/util.py:202
+#: ../src/sugar/util.py:225
 #, python-format
 msgid "%s ago"
-msgstr ""
+msgstr "%s yang lalu"
 
 #. TRANS: Relative dates (eg. 1 month and 5 days).
-#: ../src/sugar/util.py:215
+#: ../src/sugar/util.py:240
 #, python-format
 msgid "%d year"
 msgid_plural "%d years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d tahun"
 
-#: ../src/sugar/util.py:216
+#: ../src/sugar/util.py:241
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d bulan"
 
-#: ../src/sugar/util.py:217
+#: ../src/sugar/util.py:242
 #, python-format
 msgid "%d week"
 msgid_plural "%d weeks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d minggu"
 
-#: ../src/sugar/util.py:218
+#: ../src/sugar/util.py:243
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d hari"
 
-#: ../src/sugar/util.py:219
+#: ../src/sugar/util.py:244
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d jam"
 
-#: ../src/sugar/util.py:220
+#: ../src/sugar/util.py:245
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d menit"
+
+#: ../src/sugar/util.py:346
+msgid "Empty"
+msgstr "Kosong"
+
+#: ../src/sugar/util.py:348
+#, python-format
+msgid "%d B"
+msgstr "%d B"
+
+#: ../src/sugar/util.py:350
+#, python-format
+msgid "%d KB"
+msgstr "%d KB"
+
+#: ../src/sugar/util.py:352
+#, python-format
+msgid "%d MB"
+msgstr "%d MB"
+
+#: ../src/sugar/util.py:354
+#, python-format
+msgid "%d GB"
+msgstr "%d GB"
