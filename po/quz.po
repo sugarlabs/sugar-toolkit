@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-09-23 11:57-0400\n"
-"PO-Revision-Date: 2011-11-19 00:18+0200\n"
+"PO-Revision-Date: 2011-11-23 16:57+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: quz\n"
@@ -31,7 +31,7 @@ msgstr "Allchakuchkaptin pantarun"
 #  "Error al guardar: todos los cambios se perderán"
 #: ../src/sugar/activity/activity.py:814
 msgid "Keep error: all changes will be lost"
-msgstr "Allchakuchkaptin pantarun:llapan huknirasqaqa chinkarinqan"
+msgstr "Allchakuchkaptin pantarun: llapan huknirasqaqa chinkarinqan"
 
 #  "No detener"
 #: ../src/sugar/activity/activity.py:817
@@ -52,7 +52,7 @@ msgstr "Haykunata sutichay"
 #: ../src/sugar/activity/namingalert.py:87
 #: ../src/sugar/activity/widgets.py:172
 msgid "Keep"
-msgstr "kikinchata waqaychay"
+msgstr "Kikinchata waqaychay"
 
 #  "Sin título"
 #: ../src/sugar/activity/namingalert.py:282
@@ -167,7 +167,7 @@ msgstr "As tumpalla"
 #: ../src/sugar/util.py:225
 #, python-format
 msgid "%s ago"
-msgstr "%s Qhipa"
+msgstr "%s qhipa"
 
 #  "%d año"
 #  "%d años"
@@ -176,8 +176,8 @@ msgstr "%s Qhipa"
 #, python-format
 msgid "%d year"
 msgid_plural "%d years"
-msgstr[0] "%d Wata"
-msgstr[1] "%d Watakuna"
+msgstr[0] "%d wata"
+msgstr[1] "%d watakuna"
 
 #  "%d mes"
 #  "%d meses"
@@ -185,8 +185,8 @@ msgstr[1] "%d Watakuna"
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] "%d Killa"
-msgstr[1] "%d Killakuna"
+msgstr[0] "%d killa"
+msgstr[1] "%d killakuna"
 
 #  "%d semana"
 #  "%d semanas"
@@ -194,8 +194,8 @@ msgstr[1] "%d Killakuna"
 #, python-format
 msgid "%d week"
 msgid_plural "%d weeks"
-msgstr[0] "%d Qanchischaw"
-msgstr[1] "%d Qanchischawkuna"
+msgstr[0] "%d qanchischaw"
+msgstr[1] "%d qanchischawkuna"
 
 #  "%d día"
 #  "%d días"
@@ -203,8 +203,8 @@ msgstr[1] "%d Qanchischawkuna"
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] "%d P'unchaw"
-msgstr[1] "%d P'unchawkuna"
+msgstr[0] "%d p'unchaw"
+msgstr[1] "%d p'unchawkuna"
 
 #  "%d hora"
 #  "%d horas"
@@ -212,8 +212,8 @@ msgstr[1] "%d P'unchawkuna"
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] "%d Pacha"
-msgstr[1] "%d Pachakuna"
+msgstr[0] "%d pacha"
+msgstr[1] "%d pachakuna"
 
 #  "%d minuto"
 #  "%d minutos"
@@ -221,8 +221,8 @@ msgstr[1] "%d Pachakuna"
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] "%d Chinini"
-msgstr[1] "%d Chininikuna"
+msgstr[0] "%d chinini"
+msgstr[1] "%d chininikuna"
 
 #  "Vacio"
 #: ../src/sugar/util.py:346
