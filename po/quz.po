@@ -237,14 +237,3 @@ msgstr "%d MB"
 msgid "%d GB"
 msgstr "%d GB"
 
-#  "Nombre esta entrada"
-#~ msgid "Name this entry"
-#~ msgstr "Haykunata sutichay"
-
-#  "Sin título"
-#~ msgid "Untitled"
-#~ msgstr "Mana sutinchayniyuq"
-
-#  "Etiquetas:"
-#~ msgid "Tags:"
-#~ msgstr "Sutichaq:"
