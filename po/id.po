@@ -189,11 +189,3 @@ msgstr "%d MB"
 msgid "%d GB"
 msgstr "%d GB"
 
-#~ msgid "Name this entry"
-#~ msgstr "Beri nama"
-
-#~ msgid "Untitled"
-#~ msgstr "Tak berjudul"
-
-#~ msgid "Tags:"
-#~ msgstr "Penanda:"
