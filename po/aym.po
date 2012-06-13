@@ -237,14 +237,3 @@ msgstr "%d MB"
 msgid "%d GB"
 msgstr "%d GB"
 
-#  "Nombre esta entrada"
-#~ msgid "Name this entry"
-#~ msgstr "Akïri qalltäwiru sutichma"
-
-#  "Sin título"
-#~ msgid "Untitled"
-#~ msgstr "Jan sutini"
-
-#  "Etiquetas:"
-#~ msgid "Tags:"
-#~ msgstr "Suti chimpunaka:"
