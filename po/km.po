@@ -194,11 +194,3 @@ msgstr "%d មេកាបៃ"
 msgid "%d GB"
 msgstr "%d ជីកាបៃ"
 
-#~ msgid "Name this entry"
-#~ msgstr "បញ្ចូលឈ្មោះនេះ"
-
-#~ msgid "Untitled"
-#~ msgstr "គ្មាន​ចំណង​ជើង"
-
-#~ msgid "Tags:"
-#~ msgstr "គំនូស ៖"
