@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-09-23 11:57-0400\n"
-"PO-Revision-Date: 2011-11-19 01:48+0200\n"
+"PO-Revision-Date: 2011-11-23 17:03+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: aym\n"
@@ -31,7 +31,7 @@ msgstr "Pantjasa imaña"
 #  "Error al guardar: todos los cambios se perderán"
 #: ../src/sugar/activity/activity.py:814
 msgid "Keep error: all changes will be lost"
-msgstr "Pantjasa imaña: Taqi wakichatanakawa chhaqani"
+msgstr "Pantjasa imaña: taqi wakichatanakawa chhaqani"
 
 #  "No detener"
 #: ../src/sugar/activity/activity.py:817
@@ -62,7 +62,7 @@ msgstr "Jan sutini"
 #  "Descripción:"
 #: ../src/sugar/activity/namingalert.py:289
 msgid "Description:"
-msgstr "yatiyaña:"
+msgstr "Yatiyaña:"
 
 #  "Etiquetas:"
 #: ../src/sugar/activity/namingalert.py:313
