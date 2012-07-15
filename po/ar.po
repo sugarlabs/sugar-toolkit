@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sugar\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-25 00:34-0400\n"
+"POT-Creation-Date: 2012-06-18 02:40-0400\n"
 "PO-Revision-Date: 2011-02-06 22:50+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
@@ -24,24 +24,24 @@ msgstr ""
 "Nplurals=6; Plural=N==0 ? 0: n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 "
 ": n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
-#: ../src/sugar/activity/activity.py:373
+#: ../src/sugar/activity/activity.py:366
 #, python-format
 msgid "%s Activity"
 msgstr "نشاط %s"
 
-#: ../src/sugar/activity/activity.py:834
+#: ../src/sugar/activity/activity.py:827
 msgid "Keep error"
 msgstr "خطأ في الحفظ"
 
-#: ../src/sugar/activity/activity.py:835
+#: ../src/sugar/activity/activity.py:828
 msgid "Keep error: all changes will be lost"
 msgstr "خطأ في الحفظ: ستُفقد كل التغييرات"
 
-#: ../src/sugar/activity/activity.py:838
+#: ../src/sugar/activity/activity.py:831
 msgid "Don't stop"
 msgstr "لا تُوقف"
 
-#: ../src/sugar/activity/activity.py:841
+#: ../src/sugar/activity/activity.py:834
 msgid "Stop anyway"
 msgstr "أوقف على أي حال"
 
@@ -86,7 +86,7 @@ msgstr "احفظ"
 msgid "Description"
 msgstr "الوصف:"
 
-#: ../src/sugar/activity/widgets.py:429
+#: ../src/sugar/activity/widgets.py:430
 msgid "Activity"
 msgstr "النشاط"
 
