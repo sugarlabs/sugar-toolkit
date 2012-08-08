@@ -54,6 +54,7 @@ import os
 import time
 from hashlib import sha1
 from functools import partial
+import json
 
 import gconf
 import gtk
@@ -61,7 +62,6 @@ import gobject
 import dbus
 import dbus.service
 from dbus import PROPERTIES_IFACE
-import cjson
 from telepathy.server import DBusProperties
 from telepathy.interfaces import CHANNEL, \
                                  CHANNEL_TYPE_TEXT, \
@@ -677,8 +677,8 @@ class Activity(Window, gtk.Container):
 
         buddies_dict = self._get_buddies()
         if buddies_dict:
-            self.metadata['buddies_id'] = cjson.encode(buddies_dict.keys())
-            self.metadata['buddies'] = cjson.encode(self._get_buddies())
+            self.metadata['buddies_id'] = json.dumps(buddies_dict.keys())
+            self.metadata['buddies'] = json.dumps(self._get_buddies())
 
         preview = self.get_preview()
         if preview is not None:
