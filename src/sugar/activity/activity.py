@@ -324,6 +324,13 @@ class Activity(Window, gtk.Container):
             if 'share-scope' in self._jobject.metadata:
                 share_scope = self._jobject.metadata['share-scope']
 
+            if 'launch-times' in self._jobject.metadata:
+                self._jobject.metadata['launch-times'] += ', %d' % \
+                    int(time.time())
+            else:
+                self._jobject.metadata['launch-times'] = \
+                    str(int(time.time()))
+
         self.shared_activity = None
         self._join_id = None
 
@@ -376,6 +383,7 @@ class Activity(Window, gtk.Container):
         jobject.metadata['preview'] = ''
         jobject.metadata['share-scope'] = SCOPE_PRIVATE
         jobject.metadata['icon-color'] = icon_color
+        jobject.metadata['launch-times'] = str(int(time.time()))
         jobject.file_path = ''
 
         # FIXME: We should be able to get an ID synchronously from the DS,
