@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-25 00:34-0400\n"
-"PO-Revision-Date: 2011-12-22 01:31+0200\n"
+"POT-Creation-Date: 2012-06-18 02:40-0400\n"
+"PO-Revision-Date: 2012-06-20 00:01+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -18,24 +18,24 @@ msgstr ""
 "n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.0.5\n"
 
-#: ../src/sugar/activity/activity.py:373
+#: ../src/sugar/activity/activity.py:366
 #, python-format
 msgid "%s Activity"
 msgstr "%s aktivnost"
 
-#: ../src/sugar/activity/activity.py:834
+#: ../src/sugar/activity/activity.py:827
 msgid "Keep error"
 msgstr "Napaka pri shranjevanju"
 
-#: ../src/sugar/activity/activity.py:835
+#: ../src/sugar/activity/activity.py:828
 msgid "Keep error: all changes will be lost"
 msgstr "Napaka pri shranjevanju: vse spremembe bodo izgubljene"
 
-#: ../src/sugar/activity/activity.py:838
+#: ../src/sugar/activity/activity.py:831
 msgid "Don't stop"
 msgstr "Ne ustavi"
 
-#: ../src/sugar/activity/activity.py:841
+#: ../src/sugar/activity/activity.py:834
 msgid "Stop anyway"
 msgstr "Vseeno ustavi"
 
@@ -72,11 +72,10 @@ msgid "Keep"
 msgstr "Obdrži"
 
 #: ../src/sugar/activity/widgets.py:246
-#, fuzzy
 msgid "Description"
-msgstr "Opis:"
+msgstr "Opis"
 
-#: ../src/sugar/activity/widgets.py:429
+#: ../src/sugar/activity/widgets.py:430
 msgid "Activity"
 msgstr "Aktivnost"
 

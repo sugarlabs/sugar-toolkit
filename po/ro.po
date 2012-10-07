@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-25 00:34-0400\n"
+"POT-Creation-Date: 2012-06-18 02:40-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,24 +16,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.1.1rc4\n"
 
-#: ../src/sugar/activity/activity.py:373
+#: ../src/sugar/activity/activity.py:366
 #, python-format
 msgid "%s Activity"
 msgstr ""
 
-#: ../src/sugar/activity/activity.py:834
+#: ../src/sugar/activity/activity.py:827
 msgid "Keep error"
 msgstr ""
 
-#: ../src/sugar/activity/activity.py:835
+#: ../src/sugar/activity/activity.py:828
 msgid "Keep error: all changes will be lost"
 msgstr ""
 
-#: ../src/sugar/activity/activity.py:838
+#: ../src/sugar/activity/activity.py:831
 msgid "Don't stop"
 msgstr ""
 
-#: ../src/sugar/activity/activity.py:841
+#: ../src/sugar/activity/activity.py:834
 msgid "Stop anyway"
 msgstr ""
 
@@ -73,7 +73,7 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
-#: ../src/sugar/activity/widgets.py:429
+#: ../src/sugar/activity/widgets.py:430
 msgid "Activity"
 msgstr ""
 

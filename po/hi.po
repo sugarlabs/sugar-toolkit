@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-25 00:34-0400\n"
+"POT-Creation-Date: 2012-06-18 02:40-0400\n"
 "PO-Revision-Date: 2012-04-25 07:58+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,24 +17,24 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.0.5\n"
 
-#: ../src/sugar/activity/activity.py:373
+#: ../src/sugar/activity/activity.py:366
 #, python-format
 msgid "%s Activity"
 msgstr "%s क्रियाएँ"
 
-#: ../src/sugar/activity/activity.py:834
+#: ../src/sugar/activity/activity.py:827
 msgid "Keep error"
 msgstr "त्रुटि को रखे रहें"
 
-#: ../src/sugar/activity/activity.py:835
+#: ../src/sugar/activity/activity.py:828
 msgid "Keep error: all changes will be lost"
 msgstr "त्रुटि को रखे रहें: सारे परिवर्तन खो जाएँगे"
 
-#: ../src/sugar/activity/activity.py:838
+#: ../src/sugar/activity/activity.py:831
 msgid "Don't stop"
 msgstr "बन्द न करें"
 
-#: ../src/sugar/activity/activity.py:841
+#: ../src/sugar/activity/activity.py:834
 msgid "Stop anyway"
 msgstr "जैसे भी हो बन्द करें"
 
@@ -74,7 +74,7 @@ msgstr "रखें"
 msgid "Description"
 msgstr "वर्णन"
 
-#: ../src/sugar/activity/widgets.py:429
+#: ../src/sugar/activity/widgets.py:430
 msgid "Activity"
 msgstr "क्रियाएँ"
 
