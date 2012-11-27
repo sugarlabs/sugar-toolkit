@@ -180,3 +180,7 @@ class RadioToolButton(gtk.RadioToolButton):
                                   allocation.width, allocation.height)
 
         gtk.RadioToolButton.do_expose_event(self, event)
+
+    def do_clicked(self):
+        if self.palette:
+            self.palette.popdown(True)
