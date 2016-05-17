@@ -79,6 +79,7 @@ from sugar.graphics.window import Window
 from sugar.graphics.alert import Alert
 from sugar.graphics.icon import Icon
 from sugar.datastore import datastore
+from sugar.bundle.activitybundle import get_bundle_instance
 from sugar.session import XSMPClient
 from sugar import wm
 
@@ -263,11 +264,20 @@ class Activity(Window, gtk.Container):
         icons_path = os.path.join(get_bundle_path(), 'icons')
         gtk.icon_theme_get_default().append_search_path(icons_path)
 
+        sugar_theme = 'sugar-72'
+        if 'SUGAR_SCALING' in os.environ:
+            if os.environ['SUGAR_SCALING'] == '100':
+                sugar_theme = 'sugar-100'
+
         # This code can be removed when we grow an xsettings daemon (the GTK+
         # init routines will then automatically figure out the font settings)
         settings = gtk.settings_get_default()
         settings.set_property('gtk-font-name',
                               '%s %f' % (style.FONT_FACE, style.FONT_SIZE))
+        settings.set_property('gtk-theme-name', sugar_theme)
+        settings.set_property('gtk-icon-theme-name', 'sugar')
+        settings.set_property('gtk-icon-sizes', 'gtk-large-toolbar=%s,%s' %
+                        (style.STANDARD_ICON_SIZE, style.STANDARD_ICON_SIZE))
 
         Window.__init__(self)
 
@@ -365,6 +375,10 @@ class Activity(Window, gtk.Container):
             self._jobject.metadata.connect('updated',
                                            self.__jobject_updated_cb)
         self.set_title(self._jobject.metadata['title'])
+
+        if 'SUGAR_VERSION' not in os.environ:
+            bundle = get_bundle_instance(get_bundle_path())
+            self.set_icon_from_file(bundle.get_icon())
 
     def run_main_loop(self):
         gtk.main()
@@ -505,11 +519,13 @@ class Activity(Window, gtk.Container):
         self.move(0, 0)
 
     def _adapt_window_to_screen(self):
-        screen = gtk.gdk.screen_get_default()
+        screen = gtk.gdk.get_default_root_window()
+        workarea = gtk.gdk.atom_intern('_NET_WORKAREA')
+        width, height = screen.property_get(workarea)[2][2:4]
         self.set_geometry_hints(None,
-                                screen.get_width(), screen.get_height(),
-                                screen.get_width(), screen.get_height(),
-                                screen.get_width(), screen.get_height(),
+                                width, height,
+                                width, height,
+                                width, height,
                                 1, 1, 1, 1)
 
     def __session_quit_requested_cb(self, session):
@@ -555,7 +571,7 @@ class Activity(Window, gtk.Container):
         if os.environ.get('SUGAR_ACTIVITY_ROOT'):
             return os.environ['SUGAR_ACTIVITY_ROOT']
         else:
-            return '/'
+            return get_activity_root()
 
     def read_file(self, file_path):
         """
@@ -695,7 +711,7 @@ class Activity(Window, gtk.Container):
         if not self.metadata.get('activity_id', ''):
             self.metadata['activity_id'] = self.get_id()
 
-        file_path = os.path.join(self.get_activity_root(), 'instance',
+        file_path = os.path.join(get_activity_root(), 'instance',
                                  '%i' % time.time())
         try:
             self.write_file(file_path)
@@ -1019,7 +1035,16 @@ def get_activity_root():
     if os.environ.get('SUGAR_ACTIVITY_ROOT'):
         return os.environ['SUGAR_ACTIVITY_ROOT']
     else:
-        raise RuntimeError('No SUGAR_ACTIVITY_ROOT set.')
+        profile_id = os.environ.get('SUGAR_PROFILE', 'default')
+        home_dir = os.environ.get('SUGAR_HOME', os.path.expanduser('~/.sugar'))
+        base = os.path.join(home_dir, profile_id)
+        activity_root = os.path.join(base, os.environ['SUGAR_BUNDLE_ID'])
+        try:
+            os.mkdir(activity_root)
+        except OSError, e:
+            if e.errno != EEXIST:
+                raise e
+        return activity_root
 
 
 def show_object_in_journal(object_id):

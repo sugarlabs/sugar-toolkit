@@ -36,6 +36,9 @@ from sugar.bundle.bundleversion import NormalizedVersion
 from sugar.bundle.bundleversion import InvalidVersionError
 
 
+_bundle_instances = {}
+
+
 class ActivityBundle(Bundle):
     """A Sugar activity bundle
 
@@ -75,6 +78,8 @@ class ActivityBundle(Bundle):
 
         if self._local_name == None:
             self._local_name = self._name
+
+        _bundle_instances[path] = self
 
     def _parse_info(self, info_file):
         cp = ConfigParser()
@@ -339,3 +344,10 @@ class ActivityBundle(Bundle):
 
     def is_user_activity(self):
         return self.get_path().startswith(env.get_user_activities_path())
+
+
+def get_bundle_instance(path):
+    global _bundle_instances
+    if path not in _bundle_instances:
+        _bundle_instances[path] = ActivityBundle(path)
+    return _bundle_instances[path]
