@@ -92,6 +92,11 @@ class PresenceService(gobject.GObject):
                     if e.get_dbus_name() == name:
                         logging.debug("There's no shared activity with the id "
                                       "%s", activity_id)
+                    elif e.get_dbus_name() == \
+                         'org.freedesktop.DBus.Error.UnknownMethod':
+                        logging.warning(
+                            'Telepathy Account %r does not support '
+                            'Sugar collaboration', account_path)
                     else:
                         raise
                 else:
