@@ -34,6 +34,7 @@ import dbus.glib
 from sugar import env
 from sugar import mime
 from sugar import dispatch
+from sugar.profile import get_color
 
 DS_DBUS_SERVICE = 'org.laptop.sugar.DataStore'
 DS_DBUS_INTERFACE = 'org.laptop.sugar.DataStore'
@@ -234,7 +235,7 @@ class RawObject(object):
                 'mime_type': gio.content_type_guess(filename=file_path),
                 'activity': '',
                 'activity_id': '',
-                'icon-color': client.get_string('/desktop/sugar/user/color'),
+                'icon-color': get_color().to_string(),
                 'description': file_path,
                 }
 

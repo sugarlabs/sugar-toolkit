@@ -71,6 +71,7 @@ from telepathy.constants import CONNECTION_HANDLE_TYPE_CONTACT
 from telepathy.constants import CONNECTION_HANDLE_TYPE_ROOM
 
 from sugar import util
+from sugar.profile import get_color
 from sugar.presence import presenceservice
 from sugar.activity import i18n
 from sugar.activity.activityservice import ActivityService
@@ -385,7 +386,7 @@ class Activity(Window, gtk.Container):
     def _initialize_journal_object(self):
         title = _('%s Activity') % get_bundle_name()
         client = gconf.client_get_default()
-        icon_color = client.get_string('/desktop/sugar/user/color')
+        icon_color = get_color().to_string()
 
         jobject = datastore.create()
         jobject.metadata['title'] = title

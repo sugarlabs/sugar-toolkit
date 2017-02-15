@@ -32,6 +32,7 @@ from telepathy.interfaces import CONNECTION, \
 from telepathy.constants import HANDLE_TYPE_CONTACT
 
 from sugar.presence.connectionmanager import get_connection_manager
+from sugar.profile import get_color, get_nick_name
 
 ACCOUNT_MANAGER_SERVICE = 'org.freedesktop.Telepathy.AccountManager'
 CONN_INTERFACE_BUDDY_INFO = 'org.laptop.Telepathy.BuddyInfo'
@@ -244,5 +245,5 @@ class Owner(BaseBuddy):
         BaseBuddy.__init__(self)
 
         client = gconf.client_get_default()
-        self.props.nick = client.get_string('/desktop/sugar/user/nick')
-        self.props.color = client.get_string('/desktop/sugar/user/color')
+        self.props.nick = get_nick_name()
+        self.props.color = get_color().to_string()

@@ -69,8 +69,8 @@ class Profile(object):
 
     def is_valid(self):
         client = gconf.client_get_default()
-        nick = client.get_string('/desktop/sugar/user/nick')
-        color = client.get_string('/desktop/sugar/user/color')
+        nick = get_nick_name()
+        color = get_color()
 
         return nick is not '' and \
                color is not '' and \
