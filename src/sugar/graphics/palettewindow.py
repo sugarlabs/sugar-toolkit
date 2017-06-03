@@ -98,6 +98,7 @@ class MouseSpeedDetector(gobject.GObject):
     def stop(self):
         if self._timeout_hid is not None:
             gobject.source_remove(self._timeout_hid)
+            self._timeout_hid = None
         self._state = None
 
     def _get_mouse_position(self):
