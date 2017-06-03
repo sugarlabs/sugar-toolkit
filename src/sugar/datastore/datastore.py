@@ -475,6 +475,9 @@ def copy(ds_object, mount_point):
     ds_object -- DSObject to copy
     mount_point -- mount point of the new datastore entry
 
+    Returns:
+    new_ds_object -- DSObject copied
+
     """
     new_ds_object = ds_object.copy()
     new_ds_object.metadata['mountpoint'] = mount_point
@@ -494,6 +497,8 @@ def copy(ds_object, mount_point):
     new_ds_object.file_path = ds_object.file_path
 
     write(new_ds_object)
+
+    return new_ds_object
 
 
 def mount(uri, options, timeout=-1):
