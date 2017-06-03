@@ -31,6 +31,7 @@ from sugar.graphics.xocolor import XoColor
 
 
 _profile = None
+_client = None
 
 
 class Profile(object):
@@ -236,3 +237,16 @@ def get_color():
 
 def get_pubkey():
     return get_profile().pubkey
+
+
+def _get_journal_settings_boolean(name):
+    global _client
+
+    if not _client:
+        _client = gconf.client_get_default()
+
+    return _client.get_bool('/desktop/sugar/journal/%s' % name)
+
+
+def get_save_as():
+    return _get_journal_settings_boolean('save-as')
