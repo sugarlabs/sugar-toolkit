@@ -685,7 +685,7 @@ class Activity(Window, gtk.Container):
 
         This method is called by the close() method below. In general,
         activities should not override this method. This method is part of the
-        public API of an Acivity, and should behave in standard ways. Use your
+        public API of an Activity, and should behave in standard ways. Use your
         own implementation of write_file() to save your Activity specific data.
         """
 
@@ -847,6 +847,11 @@ class Activity(Window, gtk.Container):
         pservice.share_activity(self, private=private)
 
     def _show_keep_failed_dialog(self):
+        '''
+        A keep error means the activity write_file method raised an
+        exception before writing the file, or the datastore cannot be
+        written to.
+        '''
         alert = Alert()
         alert.props.title = _('Keep error')
         alert.props.msg = _('Keep error: all changes will be lost')
@@ -858,11 +863,11 @@ class Activity(Window, gtk.Container):
         alert.add_button(gtk.RESPONSE_OK, _('Stop anyway'), stop_icon)
 
         self.add_alert(alert)
-        alert.connect('response', self._keep_failed_dialog_response_cb)
+        alert.connect('response', self.__keep_failed_dialog_response_cb)
 
         self.reveal()
 
-    def _keep_failed_dialog_response_cb(self, alert, response_id):
+    def __keep_failed_dialog_response_cb(self, alert, response_id):
         self.remove_alert(alert)
         if response_id == gtk.RESPONSE_OK:
             self.close(skip_save=True)
