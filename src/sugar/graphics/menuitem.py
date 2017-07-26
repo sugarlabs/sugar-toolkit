@@ -77,7 +77,7 @@ class MenuItem(gtk.ImageMenuItem):
 
         accel_group = self.get_toplevel().get_data('sugar-accel-group')
         if not accel_group:
-            logging.warning('No gtk.AccelGroup in the top level window.')
+            logging.debug('No gtk.AccelGroup in the top level window.')
             return
 
         keyval, mask = gtk.accelerator_parse(self._accelerator)

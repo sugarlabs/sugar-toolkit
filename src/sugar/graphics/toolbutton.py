@@ -38,7 +38,7 @@ def _add_accelerator(tool_button):
 
     accel_group = tool_button.get_toplevel().get_data('sugar-accel-group')
     if not accel_group:
-        logging.warning('No gtk.AccelGroup in the top level window.')
+        logging.debug('No gtk.AccelGroup in the top level window.')
         return
 
     keyval, mask = gtk.accelerator_parse(tool_button.props.accelerator)
