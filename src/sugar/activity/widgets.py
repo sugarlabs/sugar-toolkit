@@ -167,10 +167,11 @@ class ShareButton(RadioMenuButton):
 # DEPRECATED
 class KeepButton(ToolButton):
 
-    def __init__(self, activity, **kwargs):
+    def __init__(self, activity, deprecated_warning=True, **kwargs):
         ToolButton.__init__(self, **kwargs)
-        logging.warning('KeepButton has been deprecated since Sugar 0.94'
-                        ' and should not be used in newly written code.')
+        if deprecated_warning:
+            logging.warning('KeepButton has been deprecated since Sugar 0.94'
+                            ' and should not be used in newly written code.')
         self.props.tooltip = _('Keep')
         self.props.accelerator = '<Ctrl>S'
 
@@ -339,7 +340,7 @@ class ActivityToolbar(gtk.Toolbar):
         self.insert(self.share, -1)
 
         # DEPRECATED
-        self.keep = KeepButton(activity)
+        self.keep = KeepButton(activity, deprecated_warning=False)
 
         self.stop = StopButton(activity)
         self.insert(self.stop, -1)
