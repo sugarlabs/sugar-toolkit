@@ -404,7 +404,6 @@ class Activity(Window, gtk.Container):
 
     def _initialize_journal_object(self):
         title = _('%s Activity') % get_bundle_name()
-        client = gconf.client_get_default()
         icon_color = get_color().to_string()
 
         jobject = datastore.create()

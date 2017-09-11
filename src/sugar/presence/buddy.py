@@ -244,6 +244,5 @@ class Owner(BaseBuddy):
     def __init__(self):
         BaseBuddy.__init__(self)
 
-        client = gconf.client_get_default()
         self.props.nick = get_nick_name()
         self.props.color = get_color().to_string()

@@ -69,7 +69,6 @@ class Profile(object):
     privkey_hash = property(fget=_get_privkey_hash)
 
     def is_valid(self):
-        client = gconf.client_get_default()
         nick = get_nick_name()
         color = get_color()
 

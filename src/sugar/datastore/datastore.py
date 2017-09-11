@@ -227,7 +227,6 @@ class RawObject(object):
 
     def __init__(self, file_path):
         stat = os.stat(file_path)
-        client = gconf.client_get_default()
         metadata = {
                 'uid': file_path,
                 'title': os.path.basename(file_path),
