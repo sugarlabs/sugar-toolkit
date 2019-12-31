@@ -88,6 +88,8 @@ from sugar import wm
 from sugar.activity.widgets import ActivityToolbar, EditToolbar
 from sugar.activity.widgets import ActivityToolbox
 
+from errno import EEXIST
+
 
 _ = lambda msg: gettext.dgettext('sugar-toolkit', msg)
 
